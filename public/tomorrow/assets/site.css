@@ -44,3 +44,4 @@ h1,h2,h3,h4,p,blockquote{margin-top:0}h1,h2,h3{line-height:1.37;letter-spacing:.
 
 .brand-logo{mix-blend-mode:multiply}h1,h2{word-break:auto-phrase;text-wrap:balance}
 .lead,.card p,.practice p{word-break:auto-phrase}
+.card h2.h3{font-size:1.25rem;margin-bottom:10px;line-height:1.37}.contact-section p a{color:#fff;text-decoration:underline}.contact-section p a:hover{color:#FFD88A}
