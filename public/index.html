@@ -302,6 +302,17 @@
     display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; align-items:center;
   }
   footer img{ height:18px; width:auto; opacity:0.85; }
+
+  /* ---------- BA service callout (追加) ---------- */
+  .service-callout{
+    margin-top:36px; padding:24px 26px;
+    border:1px solid var(--line); border-left:3px solid var(--blue);
+    background:var(--surface); border-radius:0 14px 14px 0;
+    display:flex; align-items:center; justify-content:space-between; gap:20px 28px; flex-wrap:wrap;
+  }
+  .service-callout h3{ margin:.2em 0 .3em; font-size:1.1rem; }
+  .service-callout p{ margin:0; font-size:0.94rem; max-width:58ch; }
+  .service-callout .btn{ flex:none; }
 </style>
 </head>
 <body>
@@ -314,6 +325,7 @@
     <nav class="links">
       <a href="#problem">課題</a>
       <a href="#services">事業内容</a>
+      <a href="/services/business-analysis">BA支援</a>
       <a href="#strengths">強み</a>
       <a href="#record">実績</a>
       <a href="#philosophy">理念</a>
@@ -409,6 +421,15 @@
             <span>実装基盤の構築支援</span><span>研究機関・協力先との接続</span><span>知財の整理</span><span>教育プログラム化</span>
           </div>
         </div>
+      </div>
+
+      <div class="service-callout">
+        <div>
+          <p class="eyebrow">上流支援 — Business Analysis</p>
+          <h3>施策や技術を選ぶ前に、課題と価値を明らかにする</h3>
+          <p class="muted">「AIを入れるべきか」の前に、「何を変えれば価値が生まれるか」を整理するビジネスアナリシス（BA）支援です。課題の定義、要求の整理、選択肢の比較、PoCの判断条件までを扱います。</p>
+        </div>
+        <a class="btn ghost" href="/services/business-analysis">BA支援の詳細を見る →</a>
       </div>
 
       <p class="lede muted" style="margin-top:32px;">どの段階も、始まりは同じ——対話です。必要になれば、関係を少しずつ育てていきます。料金は、関わる人数や射程に応じて対話の中でご相談しながら定めます。まずはお気軽にご相談ください。</p>

@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add('js');</script>
+<!-- 公開前の安全弁(1/2): 人間の最終承認までは noindex。承認後に削除または index,follow へ変更する。 -->
+<meta name="robots" content="noindex,nofollow">
+<meta name="color-scheme" content="light dark">
+<title>ビジネスアナリシス（BA）支援｜Amanevia株式会社</title>
+<meta name="description" content="Amanevia株式会社のビジネスアナリシス（BA）支援。業務・事業課題を根拠に基づいて明確化し、要件の整理、選択肢の比較、PoC構想と意思決定を支援します。初回30分の相談は無料です。">
+<link rel="canonical" href="https://amanevia.co.jp/services/business-analysis">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="Amanevia">
+<meta property="og:title" content="ビジネスアナリシス（BA）支援｜Amanevia株式会社">
+<meta property="og:description" content="課題を、決められる形に。事業課題と価値を明らかにし、要求・選択肢・判断条件までを支援します。">
+<meta property="og:url" content="https://amanevia.co.jp/services/business-analysis">
+<style>
+  /* フォントはトップページ(index.html)と同一の読み込み方式を踏襲 */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  /* ---------- Design tokens (index.html と同一) ---------- */
+  :root{
+    --ink:#0B1B33;
+    --paper:#F6F9FC;
+    --paper-dim:#EAF1F7;
+    --blue:#1D4ED8;
+    --blue-strong:#1739A8;
+    --sky:#0EA5E9;
+    --teal:#67E5E1;
+    --gold:#FFD88A;
+    --mist:#5B6B85;
+    --line: rgba(11,27,51,0.12);
+    --surface:#FFFFFF;
+    --surface-2:#EFF5FA;
+    /* 本ページ追加: テーマに依存せず十分なコントラストを保つ固定色 */
+    --btn-bg:#1D4ED8;
+    --btn-bg-hover:#1739A8;
+    --band-from:#0F2A78;
+    --band-to:#1739A8;
+    --warn-bg:#FFF4DB;
+    --warn-ink:#6B4300;
+    --warn-line:#E7B866;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#EAF1FA;
+      --paper:#0A1220;
+      --paper-dim:#0D1A2E;
+      --blue:#5B87F5;
+      --blue-strong:#87A6F8;
+      --sky:#57C7F2;
+      --teal:#7FEDE9;
+      --gold:#FFD88A;
+      --mist:#93A5C2;
+      --line: rgba(234,241,250,0.14);
+      --surface:#0F1B30;
+      --surface-2:#0D1A2E;
+      --warn-bg:#3A2A08;
+      --warn-ink:#FFE3A8;
+      --warn-line:#8A6A1F;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#EAF1FA; --paper:#0A1220; --paper-dim:#0D1A2E; --blue:#5B87F5; --blue-strong:#87A6F8;
+    --sky:#57C7F2; --teal:#7FEDE9; --gold:#FFD88A; --mist:#93A5C2; --line: rgba(234,241,250,0.14);
+    --surface:#0F1B30; --surface-2:#0D1A2E;
+    --warn-bg:#3A2A08; --warn-ink:#FFE3A8; --warn-line:#8A6A1F;
+  }
+
+  /* ---------- Base ---------- */
+  *{box-sizing:border-box;}
+  html{-webkit-font-smoothing:antialiased; scroll-padding-top:84px;}
+  @media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth;} }
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;
+    line-height:1.8;
+  }
+  ::selection{ background:var(--teal); color:#0B1B33; }
+  h1,h2,h3,h4,p,ul,ol,dl,dd{ margin-top:0; }
+  h1,h2,h3,h4{ font-weight:700; text-wrap:balance; letter-spacing:.01em; line-height:1.35; color:var(--ink); }
+  h2{ font-size:clamp(1.65rem,3.4vw,2.5rem); font-weight:800; margin-bottom:.4em; }
+  h3{ font-size:1.12rem; margin-bottom:.5em; }
+  a{ color:var(--blue); text-underline-offset:3px; }
+  :focus-visible{ outline:3px solid var(--blue); outline-offset:3px; border-radius:4px; }
+  .sr-only{ position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+  .skip{ position:absolute; left:12px; top:-72px; z-index:100; background:var(--surface); color:var(--ink); padding:10px 16px; border:2px solid var(--blue); border-radius:8px; }
+  .skip:focus{ top:12px; }
+
+  .wrap{ max-width:1080px; margin:0 auto; padding:0 clamp(20px,5vw,56px); }
+  .eyebrow{
+    font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.76rem; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--blue); display:flex; align-items:center; gap:.6em; margin-bottom:.8em;
+  }
+  .eyebrow::before{ content:""; width:1.6em; height:1px; background:currentColor; display:inline-block; flex:none; }
+  .lede{ font-size:1.04rem; max-width:62ch; }
+  .muted{ color:var(--mist); }
+  .small{ font-size:.86rem; }
+
+  /* ---------- Draft banner(公開前の安全弁 2/2: 承認後にこの要素を削除) ---------- */
+  .draft-banner{
+    background:var(--gold); color:#0B1B33; text-align:center; padding:8px 16px;
+    font-family:"IBM Plex Mono",monospace; font-size:.8rem; line-height:1.6; font-weight:500;
+  }
+
+  /* ---------- Header ---------- */
+  header.site{
+    position:sticky; top:0; z-index:40;
+    background:color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter:blur(8px); border-bottom:1px solid var(--line);
+  }
+  .navbar{ display:flex; align-items:center; justify-content:space-between; gap:16px; padding:12px clamp(20px,5vw,56px); }
+  .brandmark{ display:flex; align-items:center; }
+  .brandmark img{ height:34px; width:auto; display:block; }
+  nav.links{ display:flex; align-items:center; gap:clamp(12px,1.8vw,24px); font-family:"IBM Plex Mono",monospace; font-size:.8rem; }
+  nav.links a{ color:var(--ink); text-decoration:none; opacity:.85; padding:6px 2px; }
+  nav.links a:hover{ opacity:1; color:var(--blue); }
+  nav.links a.nav-cta{ background:var(--btn-bg); color:#fff; opacity:1; padding:9px 16px; border-radius:999px; }
+  nav.links a.nav-cta:hover{ background:var(--btn-bg-hover); color:#fff; }
+  .menu-btn{
+    display:none; font:inherit; font-family:"IBM Plex Mono",monospace; font-size:.8rem; color:var(--ink);
+    background:transparent; border:1px solid var(--ink); border-radius:999px; padding:8px 16px; cursor:pointer; min-height:44px;
+  }
+  @media (max-width:980px){
+    .js .menu-btn{ display:inline-flex; align-items:center; }
+    .js nav.links{
+      display:none; position:absolute; left:0; right:0; top:100%;
+      flex-direction:column; align-items:stretch; gap:0; padding:8px clamp(20px,5vw,56px) 20px;
+      background:var(--paper); border-bottom:1px solid var(--line); box-shadow:0 18px 28px -18px rgba(11,27,51,.35);
+    }
+    .js nav.links[data-open="true"]{ display:flex; }
+    .js nav.links a{ padding:14px 4px; border-bottom:1px solid var(--line); font-size:.9rem; }
+    .js nav.links a.nav-cta{ margin-top:14px; text-align:center; border-bottom:none; padding:14px 16px; }
+    /* JS無効時は折り返して全リンクを表示 */
+    nav.links{ flex-wrap:wrap; justify-content:flex-end; }
+  }
+
+  /* ---------- Buttons ---------- */
+  .cta-row{ display:flex; gap:14px; margin-top:28px; flex-wrap:wrap; }
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:.5em; min-height:46px;
+    font-family:"IBM Plex Mono",monospace; font-size:.82rem; letter-spacing:.04em;
+    padding:12px 22px; border-radius:999px; border:1px solid var(--ink); background:transparent;
+    text-decoration:none; color:var(--ink);
+    transition:background .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .btn.primary{ background:var(--btn-bg); color:#fff; border-color:var(--btn-bg); }
+  .btn.primary:hover{ background:var(--btn-bg-hover); border-color:var(--btn-bg-hover); }
+  .btn.ghost:hover{ border-color:var(--blue); color:var(--blue); }
+  @media (max-width:520px){ .cta-row .btn{ width:100%; } }
+
+  /* ---------- Sections ---------- */
+  section{ padding:clamp(48px,8vw,92px) 0; border-top:1px solid var(--line); }
+  section.tint{ background:var(--paper-dim); }
+  section.band{ background:linear-gradient(160deg,var(--band-from),var(--band-to)); color:#fff; border-top:none; }
+  section.band h2, section.band h3, section.band p{ color:#fff; }
+  section.band .eyebrow{ color:var(--gold); }
+  section.band a{ color:#fff; }
+  section.band :focus-visible{ outline-color:var(--gold); }
+  .section-head{ display:flex; flex-direction:column; margin-bottom:clamp(26px,4.5vw,44px); max-width:760px; }
+  .section-head p:last-child{ margin-bottom:0; }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    border-top:none; position:relative; overflow:hidden;
+    padding:clamp(52px,9vw,100px) 0 clamp(44px,7vw,76px);
+    background:
+      radial-gradient(60% 55% at 88% -10%, color-mix(in srgb,var(--gold) 50%,transparent), transparent 70%),
+      radial-gradient(70% 60% at 100% 30%, color-mix(in srgb,var(--teal) 40%,transparent), transparent 70%),
+      radial-gradient(80% 70% at 90% 90%, color-mix(in srgb,var(--sky) 30%,transparent), transparent 70%);
+  }
+  .wave-deco{ position:absolute; right:-6%; top:-6%; width:min(620px,62vw); height:min(620px,62vw); opacity:.85; pointer-events:none; }
+  .hero-grid{ display:grid; grid-template-columns:1.25fr .95fr; gap:clamp(28px,5vw,48px); align-items:center; position:relative; }
+  @media (max-width:860px){ .hero-grid{ grid-template-columns:1fr; } }
+  .hero h1{ font-size:clamp(2.2rem,5.6vw,3.9rem); margin:.3em 0 .45em; line-height:1.3; }
+  .hero h1 .accent{ color:var(--blue); }
+  .chips{ list-style:none; padding:0; margin:22px 0 0; display:flex; flex-wrap:wrap; gap:8px; }
+  .chips li{ font-family:"IBM Plex Mono",monospace; font-size:.78rem; border:1px solid var(--line); background:var(--surface); border-radius:999px; padding:5px 12px; }
+  .hero-note{ margin:20px 0 0; font-size:.88rem; color:var(--mist); max-width:56ch; }
+
+  .viewpoints{
+    border:1px solid var(--line); background:var(--surface); border-radius:16px; padding:22px 24px;
+    box-shadow:0 12px 32px -18px rgba(11,27,51,.3);
+  }
+  .viewpoints .kicker{ font-family:"IBM Plex Mono",monospace; font-size:.74rem; letter-spacing:.1em; color:var(--mist); margin:0 0 6px; }
+  .viewpoints .headline{ font-size:1.35rem; font-weight:800; line-height:1.45; margin:0 0 4px; }
+  .viewpoints .sub{ font-size:.9rem; color:var(--mist); margin:0 0 16px; }
+  .viewpoints ol{ list-style:none; padding:0; margin:0; display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  @media (max-width:420px){ .viewpoints ol{ grid-template-columns:1fr; } }
+  .viewpoints li{ background:var(--surface-2); border:1px solid var(--line); border-radius:12px; padding:12px 14px; }
+  .viewpoints li .k{ display:block; font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.08em; color:var(--blue); }
+  .viewpoints li strong{ display:block; font-size:1rem; margin:2px 0; }
+  .viewpoints li span.d{ display:block; font-size:.84rem; color:var(--mist); line-height:1.6; }
+  .viewpoints .foot{ margin:16px 0 0; font-size:.84rem; color:var(--mist); }
+
+  /* ---------- Trust strip ---------- */
+  .strip{ padding:0; border-top:1px solid var(--line); background:var(--surface); }
+  .strip ul{ list-style:none; margin:0 auto; padding:22px clamp(20px,5vw,56px); max-width:1080px; display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+  .strip li strong{ display:block; font-size:.95rem; }
+  .strip li span{ font-size:.84rem; color:var(--mist); }
+  @media (max-width:760px){ .strip ul{ grid-template-columns:1fr 1fr; } }
+
+  /* ---------- Cards ---------- */
+  .grid-3{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  @media (max-width:900px){ .grid-3{ grid-template-columns:1fr; } }
+  .card{ background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:26px 24px; }
+  .card .num{ display:inline-grid; place-items:center; width:38px; height:38px; border-radius:12px; background:var(--surface-2); border:1px solid var(--line); font-family:"IBM Plex Mono",monospace; font-weight:500; color:var(--blue); margin-bottom:16px; }
+  .card p:last-child{ margin-bottom:0; color:var(--mist); font-size:.95rem; }
+  .answer{ display:flex; gap:12px; align-items:flex-start; margin:30px 0 0; font-weight:700; }
+  .answer::before{ content:""; flex:none; width:32px; height:2px; background:var(--blue); margin-top:.9em; }
+
+  .compare{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  @media (max-width:760px){ .compare{ grid-template-columns:1fr; } }
+  .compare .col{ border-radius:18px; padding:28px 28px; border:1px solid var(--line); background:var(--surface); }
+  .compare .after{ background:var(--surface-2); border-color:var(--blue); border-width:2px; }
+  .compare .tag{ font-family:"IBM Plex Mono",monospace; font-size:.76rem; letter-spacing:.1em; color:var(--mist); margin:0 0 10px; }
+  .compare .after .tag{ color:var(--blue); }
+  .compare h3{ font-size:1.3rem; line-height:1.6; margin-bottom:12px; }
+  .compare ul{ margin:0; padding-left:1.2em; color:var(--mist); line-height:2; font-size:.95rem; }
+
+  /* ---------- Packages ---------- */
+  .pkg{ display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--line); border-radius:18px; padding:26px 24px; }
+  .pkg .step{ font-family:"IBM Plex Mono",monospace; font-size:.74rem; letter-spacing:.14em; color:var(--blue); margin:0 0 6px; }
+  .pkg h3{ font-size:1.3rem; margin-bottom:4px; }
+  .pkg .eng{ font-family:"IBM Plex Mono",monospace; font-size:.8rem; color:var(--mist); margin:0 0 14px; }
+  .pkg .desc{ font-size:.95rem; margin-bottom:16px; }
+  .pkg .label{ font-family:"IBM Plex Mono",monospace; font-size:.76rem; color:var(--mist); border-top:1px solid var(--line); padding-top:14px; margin:0 0 10px; }
+  .pkg ul{ list-style:none; padding:0; margin:0 0 20px; }
+  .pkg li{ position:relative; padding-left:22px; margin-bottom:8px; font-size:.95rem; }
+  .pkg li::before{ content:"✓"; position:absolute; left:2px; top:0; color:var(--blue); font-weight:700; }
+  .pkg .meta{ margin-top:auto; border-top:1px solid var(--line); padding-top:14px; font-size:.86rem; color:var(--mist); display:grid; gap:4px; }
+  .pkg .meta strong{ color:var(--ink); }
+  .note{ margin:22px 0 0; padding:16px 20px; border-left:3px solid var(--blue); background:var(--surface); border-radius:0 10px 10px 0; font-size:.9rem; color:var(--mist); }
+  .note strong{ color:var(--ink); }
+
+  /* ---------- Steps ---------- */
+  .steps{ list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(6,1fr); gap:14px; counter-reset:step; }
+  @media (max-width:980px){ .steps{ grid-template-columns:repeat(3,1fr); } }
+  @media (max-width:600px){ .steps{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:380px){ .steps{ grid-template-columns:1fr; } }
+  .steps li{ position:relative; border-top:2px solid var(--blue); padding:16px 6px 0 0; }
+  .steps li::before{ content:""; position:absolute; top:-6px; left:0; width:10px; height:10px; border-radius:50%; background:var(--blue); box-shadow:0 0 0 4px var(--paper); }
+  section.tint .steps li::before{ box-shadow:0 0 0 4px var(--paper-dim); }
+  .steps .count{ display:block; font-family:"IBM Plex Mono",monospace; font-size:.74rem; color:var(--blue); margin-bottom:6px; }
+  .steps h3{ font-size:1rem; margin-bottom:6px; }
+  .steps p{ font-size:.88rem; color:var(--mist); margin:0; line-height:1.75; }
+
+  /* ---------- Deliverables / sample sheet ---------- */
+  .deliv{ display:grid; grid-template-columns:.8fr 1.2fr; gap:clamp(28px,5vw,52px); align-items:start; }
+  @media (max-width:900px){ .deliv{ grid-template-columns:1fr; } }
+  .checks{ list-style:none; padding:0; margin:22px 0 26px; display:grid; gap:10px; }
+  .checks li{ position:relative; padding-left:20px; font-size:.95rem; color:var(--mist); }
+  .checks li::before{ content:""; position:absolute; left:0; top:.72em; width:7px; height:7px; border-radius:50%; background:var(--blue); }
+  .sheet{ background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:24px 26px; box-shadow:0 20px 44px -30px rgba(11,27,51,.35); }
+  .sheet-top{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:10px; border-bottom:2px solid var(--blue); padding-bottom:14px; }
+  .sheet-top .label{ font-family:"IBM Plex Mono",monospace; font-size:.8rem; font-weight:500; letter-spacing:.04em; }
+  .badge-sample{ font-size:.84rem; font-weight:700; color:var(--warn-ink); background:var(--warn-bg); border:1px solid var(--warn-line); border-radius:6px; padding:4px 10px; }
+  .sheet h3{ font-size:1.2rem; margin:18px 0 10px; }
+  .sheet .example-note{ font-size:.86rem; color:var(--warn-ink); background:var(--warn-bg); border-radius:8px; padding:8px 12px; margin-bottom:12px; }
+  .sheet dl{ margin:0; }
+  .sheet .row{ display:grid; grid-template-columns:112px 1fr; gap:16px; padding:11px 0; border-top:1px solid var(--line); font-size:.9rem; line-height:1.7; }
+  .sheet dt{ font-weight:700; font-size:.84rem; color:var(--mist); }
+  .sheet dd{ margin:0; }
+  .status{ display:inline-block; margin-left:6px; font-size:.76rem; font-weight:700; border-radius:999px; padding:1px 10px; color:var(--warn-ink); background:var(--warn-bg); border:1px solid var(--warn-line); white-space:nowrap; }
+  .sheet .foot{ margin:12px 0 0; font-size:.84rem; color:var(--mist); }
+  @media (max-width:520px){ .sheet{ padding:18px 16px; } .sheet .row{ grid-template-columns:1fr; gap:2px; } }
+
+  /* ---------- Scenarios ---------- */
+  .scn{ background:var(--surface); border:1px solid var(--line); border-radius:16px; overflow:hidden; }
+  .scn .top{ padding:20px 22px; background:linear-gradient(115deg,var(--band-from),var(--band-to)); color:#fff; }
+  .scn .top .k{ display:block; font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.1em; color:#D6E2FF; margin-bottom:6px; }
+  .scn .top h3{ color:#fff; font-size:1.2rem; margin:0; }
+  .scn .in{ padding:20px 22px 24px; }
+  .scn .in p{ font-size:.95rem; color:var(--mist); }
+  .scn .focus{ margin:0; border-top:1px solid var(--line); padding-top:12px; font-size:.86rem; color:var(--blue); }
+
+  /* ---------- Trust (band) ---------- */
+  .gov{ display:grid; grid-template-columns:.9fr 1.1fr; gap:clamp(28px,5vw,56px); align-items:start; }
+  @media (max-width:900px){ .gov{ grid-template-columns:1fr; } }
+  .gov-boxes{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  @media (max-width:560px){ .gov-boxes{ grid-template-columns:1fr; } }
+  .gov-box{ border:1px solid rgba(255,255,255,.32); background:rgba(255,255,255,.08); border-radius:14px; padding:20px 20px 22px; }
+  .gov-box .k{ display:block; font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.1em; color:var(--gold); margin-bottom:8px; }
+  .gov-box h3{ font-size:1.02rem; margin-bottom:6px; }
+  .gov-box p{ margin:0; font-size:.9rem; line-height:1.85; }
+  .reference{ margin-top:26px; font-size:.86rem; line-height:1.9; }
+  .reference a{ text-decoration:underline; }
+
+  /* ---------- FAQ / glossary ---------- */
+  .faq{ max-width:860px; }
+  .faq details{ border-bottom:1px solid var(--line); }
+  .faq details:first-of-type{ border-top:1px solid var(--line); }
+  .faq summary{ list-style:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:18px; padding:20px 4px; font-weight:700; font-size:1rem; line-height:1.7; min-height:48px; }
+  .faq summary::-webkit-details-marker{ display:none; }
+  .faq summary::after{ content:"+"; font-size:1.5rem; color:var(--blue); font-weight:400; flex:none; }
+  .faq details[open] summary::after{ content:"−"; }
+  .faq details p{ padding:0 4px 20px; margin:0; color:var(--mist); max-width:70ch; }
+  .glossary{ max-width:860px; margin-top:clamp(36px,6vw,56px); }
+  .glossary h3{ font-size:1.2rem; margin-bottom:14px; }
+  .glossary dl{ margin:0; display:grid; grid-template-columns:200px 1fr; border-top:1px solid var(--line); }
+  .glossary dt, .glossary dd{ margin:0; padding:12px 4px; border-bottom:1px solid var(--line); font-size:.92rem; }
+  .glossary dt{ font-weight:700; }
+  .glossary dd{ color:var(--mist); }
+  @media (max-width:640px){ .glossary dl{ grid-template-columns:1fr; } .glossary dt{ border-bottom:none; padding-bottom:0; } }
+
+  /* ---------- Contact / footer ---------- */
+  .contact-card{ border:1px solid var(--line); background:var(--surface); padding:clamp(26px,5vw,44px); border-radius:18px; box-shadow:0 20px 44px -30px rgba(11,27,51,.35); display:flex; flex-direction:column; gap:14px; }
+  .contact-card h2{ margin-bottom:.2em; }
+  .contact-card .mail{ margin:0; font-size:.95rem; }
+  footer.site-foot{ border-top:1px solid var(--line); padding:28px 0 44px; font-family:"IBM Plex Mono",monospace; font-size:.78rem; color:var(--mist); }
+  .foot-inner{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px 28px; align-items:flex-start; }
+  .foot-brand{ display:flex; align-items:center; gap:.6em; }
+  .foot-brand img{ height:20px; width:auto; }
+  .foot-links{ display:flex; flex-wrap:wrap; gap:8px 22px; }
+  .foot-links a{ color:var(--ink); text-decoration:none; padding:4px 0; }
+  .foot-links a:hover{ color:var(--blue); text-decoration:underline; }
+  .foot-note{ width:100%; margin:0; }
+
+  @media (prefers-reduced-motion:reduce){ *,*::before,*::after{ transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+
+<!-- 公開前の安全弁: 人間の最終承認後にこの div を削除する -->
+<div class="draft-banner" role="note">DRAFT — 公開前の確認用ページです。サービス内容・料金・期間は未確定で、代表の承認を得るまで公開しません。</div>
+
+<header class="site">
+  <div class="navbar">
+    <a class="brandmark" href="/" aria-label="Amanevia株式会社 トップページへ">
+      <img src="/assets/logo-icon.png" alt="Amanevia">
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">メニュー</button>
+    <nav class="links" id="site-nav" aria-label="このページの内容">
+      <a href="#challenges">よくある課題</a>
+      <a href="#packages">サービス内容</a>
+      <a href="#approach">進め方</a>
+      <a href="#deliverables">成果物</a>
+      <a href="#trust">信頼・品質</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="https://timerex.net/s/aisignv_b9ff/728987e1" target="_blank" rel="noopener noreferrer">30分の初回相談<span class="sr-only">（新しいタブで開きます）</span> ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <svg class="wave-deco" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <path d="M20 280 C120 220, 180 340, 280 260 C330 220, 360 240, 390 200" stroke="var(--sky)" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+      <path d="M10 220 C110 160, 170 280, 270 200 C320 160, 350 180, 380 140" stroke="var(--teal)" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+      <path d="M40 340 C140 280, 200 400, 300 320 C350 280, 370 300, 390 270" stroke="var(--blue)" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+      <circle cx="330" cy="110" r="22" fill="var(--gold)" opacity="0.85"/>
+    </svg>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">ビジネスアナリシス — Business Analysis</p>
+        <h1 id="hero-title">課題を、<br><span class="accent">決められる形に。</span></h1>
+        <p class="lede">「AIを入れるべきか」の前に、「何を変えれば価値が生まれるか」を明らかにする。経営・現場・技術をつなぎ、根拠ある課題分析から要求の整理、選択肢の比較、実行の判断までを支援します。</p>
+        <ul class="chips" aria-label="支援領域">
+          <li>事業課題の構造化</li><li>業務分析・要求整理</li><li>選択肢・投資判断</li><li>PoCの設計</li>
+        </ul>
+        <div class="cta-row">
+          <a class="btn primary" href="https://timerex.net/s/aisignv_b9ff/728987e1" target="_blank" rel="noopener noreferrer">まず30分、相談する<span class="sr-only">（新しいタブで開きます）</span> ↗</a>
+          <a class="btn ghost" href="#packages">支援パッケージを見る ↓</a>
+        </div>
+        <p class="hero-note">初回相談は無料（30分）です。詳細な調査・分析・制作は、内容と費用に合意したうえで実施します。</p>
+      </div>
+      <aside class="viewpoints" aria-labelledby="vp-title">
+        <p class="kicker" id="vp-title">FROM REQUEST TO REASONED DECISION</p>
+        <p class="headline">何を作るか、よりも<br>なぜ変えるか。</p>
+        <p class="sub">要望をそのまま仕様にせず、事業価値から考えます。</p>
+        <ol>
+          <li><span class="k">01 OBSERVE</span><strong>事実を捉える</strong><span class="d">現場・業務・関係者を確認</span></li>
+          <li><span class="k">02 DEFINE</span><strong>課題を定義する</strong><span class="d">症状と原因の仮説を分ける</span></li>
+          <li><span class="k">03 COMPARE</span><strong>解決策を比べる</strong><span class="d">非IT案・既存技術も比較</span></li>
+          <li><span class="k">04 VERIFY</span><strong>価値を検証する</strong><span class="d">KPI・受入条件・改善</span></li>
+        </ol>
+        <p class="foot">経営の判断と、現場で使える実装をつなぎます。</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- STRIP -->
+  <section class="strip" aria-label="支援の基本姿勢">
+    <ul>
+      <li><strong>事実と仮説を区別</strong><span>未確認事項を曖昧にしない</span></li>
+      <li><strong>複数案を比較</strong><span>非IT・非AI案も検討</span></li>
+      <li><strong>判断できる成果物</strong><span>課題・要求・評価条件を可視化</span></li>
+      <li><strong>代表が直接対応</strong><span>範囲・責任・情報管理を合意</span></li>
+    </ul>
+  </section>
+
+  <!-- CHALLENGES -->
+  <section class="tint" id="challenges" aria-labelledby="challenges-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Why Business Analysis?</p>
+        <h2 id="challenges-title">進まない理由は、<br>技術そのものではないかもしれません。</h2>
+        <p class="lede muted">施策を急ぐ前に、前提条件をそろえる。認識のずれや、まだ定義されていない要求を早い段階で見つけることで、判断と実装の土台を整えます。</p>
+      </div>
+      <div class="grid-3">
+        <article class="card"><span class="num" aria-hidden="true">01</span><h3>ツール導入が目的になる</h3><p>AI・SaaS・システムの導入方針が先に決まり、解決すべき課題や成功条件が定義されない。</p></article>
+        <article class="card"><span class="num" aria-hidden="true">02</span><h3>現場と経営の認識がずれる</h3><p>利用者、決裁者、業務責任者で期待が異なり、要求の変更・手戻り・責任の曖昧さが生まれる。</p></article>
+        <article class="card"><span class="num" aria-hidden="true">03</span><h3>PoCから先に進めない</h3><p>検証結果をどう評価し、何を条件に導入・保留・撤退するかが共有されていない。</p></article>
+      </div>
+      <p class="answer">Amaneviaは、「技術を選ぶ前の意思決定」を設計するところから支援します。</p>
+    </div>
+  </section>
+
+  <!-- VALUE -->
+  <section id="value" aria-labelledby="value-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">From Request to Business Value</p>
+        <h2 id="value-title">「作ってほしい」を、<br>「何を変えるべきか」へ。</h2>
+        <p class="lede muted">BAは、要件定義書を作るだけの仕事ではありません。ニーズ、関係者、価値、制約、実行案をつなぎ、納得して決められる状態をつくる活動です。</p>
+      </div>
+      <div class="compare">
+        <div class="col before">
+          <p class="tag">BEFORE — よくある相談の入り口</p>
+          <h3>「業務を効率化したい。<br>AIツールを導入したい」</h3>
+          <ul><li>課題が起きる条件が不明</li><li>誰が何を負担するかが未整理</li><li>投資判断や成功基準が曖昧</li></ul>
+        </div>
+        <div class="col after">
+          <p class="tag">AFTER — BAで目指す状態</p>
+          <h3>「何が問題で、<br>どの方法を試すべきか」</h3>
+          <ul><li>現状・原因の仮説・制約を見える化</li><li>非ITを含む解決策を比較</li><li>受入条件・指標・次の判断を合意</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PACKAGES -->
+  <section class="tint" id="packages" aria-labelledby="packages-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Service Packages — 構成案</p>
+        <h2 id="packages-title">小さく始め、<br>必要なところまで伴走する。</h2>
+        <p class="lede muted">ご相談の段階や、決めたいことに合わせて、調査・設計・実行支援を組み合わせます。</p>
+      </div>
+      <div class="grid-3">
+        <article class="pkg">
+          <p class="step">PACKAGE 01 / DISCOVER</p>
+          <h3>課題構造化・初期診断</h3>
+          <p class="eng">BA Discovery</p>
+          <p class="desc">依頼の背景を整理し、「何を、なぜ確認すべきか」を明らかにします。</p>
+          <p class="label">主な成果物の例</p>
+          <ul><li>ビジネス課題定義書</li><li>関係者・意思決定者マップ</li><li>現状・原因の仮説リスト</li><li>未確認事項・次の調査計画</li></ul>
+          <div class="meta"><span>入口：初期ヒアリング・簡易分析</span><span><strong>料金・期間：個別見積</strong>（未確定）</span></div>
+        </article>
+        <article class="pkg">
+          <p class="step">PACKAGE 02 / DEFINE</p>
+          <h3>業務・要求分析支援</h3>
+          <p class="eng">BA &amp; Requirements Design</p>
+          <p class="desc">現状業務と目指す姿を整理し、手戻りのリスクを抑えるための要求と受入条件を設計します。</p>
+          <p class="label">主な成果物の例</p>
+          <ul><li>As-Is / To-Be 業務フロー（現状と目指す姿）</li><li>課題・根本原因の検証表</li><li>要求一覧・優先順位</li><li>受入条件・トレーサビリティ</li></ul>
+          <div class="meta"><span>入口：業務改革・開発前の要件整理</span><span><strong>料金・期間：個別見積</strong>（未確定）</span></div>
+        </article>
+        <article class="pkg">
+          <p class="step">PACKAGE 03 / DECIDE</p>
+          <h3>解決策評価・PoC構想</h3>
+          <p class="eng">Decision &amp; PoC Design</p>
+          <p class="desc">選択肢・費用・効果の仮説・リスクを比較し、次の投資・検証の判断を支えます。</p>
+          <p class="label">主な成果物の例</p>
+          <ul><li>非IT・IT・AIを含む比較表</li><li>ビジネスケース・意思決定メモ</li><li>PoC計画・KPI・受入条件</li><li>実施／保留／中止の判断条件</li></ul>
+          <div class="meta"><span>入口：PoC前・投資判断前</span><span><strong>料金・期間：個別見積</strong>（未確定）</span></div>
+        </article>
+      </div>
+      <p class="note"><strong>ご契約について：</strong>上記は提供メニューの構成案です。実際の納品物・工程・期間・支援体制・費用・検収は事前に合意します。初回30分の相談は無料ですが、詳細分析・実装・専門審査は別途協議します。実装やPMOの継続的な伴走も、必要性を確認したうえでご提案します。</p>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section id="approach" aria-labelledby="approach-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">How We Work</p>
+        <h2 id="approach-title">調べるだけで終わらせない。<br>判断までを、一つの流れに。</h2>
+        <p class="lede muted">実務では必要に応じて工程を行き来し、並行して進めます。特定の標準が定める必須の実施順序を示すものではありません。</p>
+      </div>
+      <ol class="steps">
+        <li><span class="count">STEP 01</span><h3>目的・範囲を合意</h3><p>解決したい課題、関係者、調査範囲を明確にします。</p></li>
+        <li><span class="count">STEP 02</span><h3>現状を把握</h3><p>文書・ヒアリング・観察から事実を集めます。</p></li>
+        <li><span class="count">STEP 03</span><h3>課題を構造化</h3><p>症状と原因の仮説を分け、反証も確認します。</p></li>
+        <li><span class="count">STEP 04</span><h3>要求・選択肢を設計</h3><p>成果指標、業務・機能・品質の条件を整理します。</p></li>
+        <li><span class="count">STEP 05</span><h3>比較・意思決定</h3><p>投資・安全・運用を比較し、判断材料を示します。</p></li>
+        <li><span class="count">STEP 06</span><h3>検証・改善へ接続</h3><p>PoC・受入条件・再評価の方法を決めます。</p></li>
+      </ol>
+      <p class="small muted" style="margin-top:22px;">※各工程の実施範囲は案件の特性や契約内容により異なります。現場での実査・第三者審査・実装は、必要に応じて別途合意します。</p>
+    </div>
+  </section>
+
+  <!-- DELIVERABLES -->
+  <section class="tint" id="deliverables" aria-labelledby="deliverables-title">
+    <div class="wrap deliv">
+      <div>
+        <p class="eyebrow">Decision-ready Deliverables</p>
+        <h2 id="deliverables-title">報告書より、<br>次の判断が進む資料を。</h2>
+        <p class="lede muted">分析の深さは、いま決めたいことに合わせます。各成果物には、事実・仮説・未確認事項・判断の権限を示し、重要な決定が埋もれないようにします。</p>
+        <ul class="checks">
+          <li>経営者が論点を短時間で確認できる</li>
+          <li>業務責任者と技術担当の認識をそろえられる</li>
+          <li>何を追加で調査すべきかが明確になる</li>
+          <li>実装・検証の受入条件に引き継げる</li>
+        </ul>
+        <a class="btn ghost" href="#packages">対象サービスを確認する →</a>
+      </div>
+
+      <article class="sheet" aria-labelledby="sheet-title">
+        <div class="sheet-top">
+          <span class="label">BA DECISION SHEET / SAMPLE</span>
+          <span class="badge-sample">架空例・実績ではありません</span>
+        </div>
+        <h3 id="sheet-title">例：申請情報の重複入力をどう減らすか</h3>
+        <p class="example-note">以下は説明のためのサンプルです。Amaneviaの受託実績や顧客の実案件、改善結果を示すものではありません。</p>
+        <dl>
+          <div class="row"><dt>確認された事実</dt><dd>実際の業務データ・入力帳票・関係者への確認が必要<span class="status">未確認</span></dd></div>
+          <div class="row"><dt>問題の仮説</dt><dd>複数部門で情報が重複管理され、変更通知にも不整合があるため、再作業が生まれている可能性</dd></div>
+          <div class="row"><dt>比較する案</dt><dd>①様式・ルールの統一　②既存SaaSの活用　③専用開発</dd></div>
+          <div class="row"><dt>成果の指標</dt><dd>入力に要する時間／差戻し率／変更連絡の漏れ（基準値は実測後に設定）</dd></div>
+          <div class="row"><dt>次の判断</dt><dd>共通項目と運用責任を確認したうえで、小規模な業務改善案を比較する</dd></div>
+          <div class="row"><dt>意思決定者</dt><dd>契約・社内の権限により要確認<span class="status">未確認</span></dd></div>
+        </dl>
+        <p class="foot">このサンプルには、架空のROI・受注実績・改善率も使用していません。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- SCENARIOS -->
+  <section id="scenarios" aria-labelledby="scenarios-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Application Areas</p>
+        <h2 id="scenarios-title">経営・デジタル・現場を横断する<br>相談テーマ。</h2>
+        <p class="lede muted">以下は、対応を検討できるテーマの例です。特定の技術の実現性や効果を確認済みであることを示すものではありません。</p>
+      </div>
+      <div class="grid-3">
+        <article class="scn"><div class="top"><span class="k">01 / BUSINESS TRANSFORMATION</span><h3>経営・業務改革</h3></div><div class="in"><p>部門間で分断された業務、承認の滞留、SaaS導入前の課題と要求の整理。</p><p class="focus">焦点：関係者・As-Is/To-Be・意思決定</p></div></article>
+        <article class="scn"><div class="top"><span class="k">02 / AI &amp; DIGITAL</span><h3>AI・DXの導入判断</h3></div><div class="in"><p>AIの活用余地、既存ツールとの比較、業務への適合・情報管理・評価条件の整理。</p><p class="focus">焦点：非AI案の比較・要求・データ・KPI</p></div></article>
+        <article class="scn"><div class="top"><span class="k">03 / ROBOTICS &amp; R&amp;D</span><h3>製造・ロボティクスの実証</h3></div><div class="in"><p>現場の課題、品質、技能継承、安全といった観点から、PoCで確かめる目的を設計。</p><p class="focus">焦点：現場観察・仮説・安全確認の段階・受入</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="band" id="trust" aria-labelledby="trust-title">
+    <div class="wrap gov">
+      <div>
+        <p class="eyebrow">Trust &amp; Governance</p>
+        <h2 id="trust-title">信用は、言葉ではなく<br>仕事の進め方で示す。</h2>
+        <p class="lede">小規模体制であることを明示したうえで、担当者・責任範囲・情報の扱い・根拠の確認を明確にします。</p>
+        <p class="reference">参照する知識体系：IIBAの<a href="https://www.iiba.org/knowledgehub/the-business-analysis-standard/" target="_blank" rel="noopener noreferrer">The Business Analysis Standard<span class="sr-only">（新しいタブで開きます）</span></a>およびBABOK® Guide。これらの手法を参考にした独自の支援設計であり、IIBAによる認証・提携・公認のサービスを意味するものではありません。</p>
+      </div>
+      <div class="gov-boxes">
+        <div class="gov-box"><span class="k">01 / ACCOUNTABILITY</span><h3>代表が主担当として対応</h3><p>窓口と役割を明確にします。必要な専門領域は、連携できるかを個別に検討します。</p></div>
+        <div class="gov-box"><span class="k">02 / EVIDENCE</span><h3>根拠と未確認を分ける</h3><p>ヒアリング・文書・観測結果と、推論を混同せずに説明します。</p></div>
+        <div class="gov-box"><span class="k">03 / SECURITY</span><h3>顧客情報を慎重に扱う</h3><p>お客様の許諾や契約に従い、機密・個人情報のAI利用を制限します。詳細は<a href="https://amanevia.co.jp/security">情報セキュリティ・AI活用方針</a>をご確認ください。</p></div>
+        <div class="gov-box"><span class="k">04 / INDEPENDENCE</span><h3>技術導入を前提にしない</h3><p>業務ルールの見直しや既存製品の活用も含めて比較します。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Frequently Asked Questions</p>
+        <h2 id="faq-title">よくあるご質問</h2>
+      </div>
+      <div class="faq">
+        <details><summary>ビジネスアナリシスとPMO・要件定義は何が違いますか？</summary><p>BAは「なぜ変えるのか、どんな価値を届けるのか、何を満たす必要があるのか」を明確にする活動です。要件定義はその一部として扱う場合があり、PMOは合意後の計画・課題・意思決定の推進を支える機能です。案件に応じて組み合わせます。</p></details>
+        <details><summary>AI・システムを導入しない提案もありますか？</summary><p>あります。業務ルール・役割・帳票・既存SaaSなどの選択肢を比較し、AIの導入が有効かどうかを、課題・費用・リスク・実行可能性から検討します。</p></details>
+        <details><summary>価格・期間・成果物はどのように決まりますか？</summary><p>初回30分の相談は無料です。有償の分析・設計・伴走は、調査の対象、資料の状況、ヒアリングへのご協力、責任範囲、成果物、納期などを確認したうえでお見積りします。本ページのパッケージは提供構成の案であり、固定の料金・納期をお約束するものではありません。</p></details>
+        <details><summary>顧客の機密情報をAIに入力しますか？</summary><p>お客様の機密情報・個人情報のAI利用は、契約・法令・サービスの利用条件・設定などを確認したうえで制限します。詳細は、当社の<a href="https://amanevia.co.jp/security">情報セキュリティ・AI活用方針</a>および<a href="https://amanevia.co.jp/privacy">プライバシーポリシー</a>をご確認ください。</p></details>
+        <details><summary>改善効果や投資回収は保証されますか？</summary><p>事前に測定していない効果や投資回収は保証できません。目標・計測方法・比較条件・リスク・中止条件を明確にし、導入後も実測に基づいて評価することを重視します。</p></details>
+        <details><summary>ロボティクスや安全に関わる案件も相談できますか？</summary><p>業務・事業課題の整理やPoC構想のご相談は可能です。一方、機械安全・法令への適合・実機の性能認証などはBAだけで判断せず、必要に応じて該当分野の専門家によるレビューを前提とします。</p></details>
+      </div>
+
+      <div class="glossary">
+        <h3>用語のかんたん説明</h3>
+        <dl>
+          <dt>BA（ビジネスアナリシス）</dt><dd>事業や業務の課題とニーズを明らかにし、価値を生む解決策を選べるよう支える活動です。</dd>
+          <dt>As-Is / To-Be</dt><dd>「いまの姿（As-Is）」と「目指す姿（To-Be）」のことです。その差を見て、何を変えるかを考えます。</dd>
+          <dt>要求・受入条件</dt><dd>「何を満たしてほしいか」が要求、「できあがりをどう確認して受け入れるか」が受入条件です。</dd>
+          <dt>トレーサビリティ</dt><dd>課題・要求・受入条件がどうつながっているかを、あとから追えるようにしておくことです。</dd>
+          <dt>PoC（概念実証）</dt><dd>本格導入の前に、小さな規模で「本当に使えるか」を試して確かめることです。</dd>
+          <dt>KPI</dt><dd>成果を測るための指標です。何を測るかを先に決めておくと、導入後に評価できます。</dd>
+          <dt>ビジネスケース</dt><dd>その取り組みを行う理由・費用・期待する効果・リスクをまとめた、判断のための資料です。</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="tint" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="contact-card">
+        <p class="eyebrow">Let's clarify the next step</p>
+        <h2 id="contact-title">まずは、課題を言葉にする30分から。</h2>
+        <p class="lede">解決策が決まっていなくても構いません。背景・現状・判断したいことを整理し、取り組む価値のある次の一手を一緒に考えます。初回相談の前に、詳細な機密情報をお送りいただく必要はありません。</p>
+        <div class="cta-row" style="margin-top:6px;">
+          <a class="btn primary" href="https://timerex.net/s/aisignv_b9ff/728987e1" target="_blank" rel="noopener noreferrer">無料の初回相談を予約<span class="sr-only">（新しいタブで開きます）</span> ↗</a>
+          <a class="btn ghost" href="mailto:contact@amanevia.co.jp">メールで相談する</a>
+        </div>
+        <p class="mail muted">メール：<a href="mailto:contact@amanevia.co.jp">contact@amanevia.co.jp</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-inner">
+      <span class="foot-brand"><img src="/assets/logo-icon.png" alt=""> © Amanevia Inc.</span>
+      <nav class="foot-links" aria-label="サイト関連リンク">
+        <a href="/">トップページ</a>
+        <a href="https://amanevia.co.jp/privacy">プライバシーポリシー</a>
+        <a href="https://amanevia.co.jp/security">情報セキュリティ・AI活用方針</a>
+        <a href="mailto:contact@amanevia.co.jp">お問い合わせ</a>
+      </nav>
+      <p class="foot-note">やさしさが、未来をつくる。— Gentle today, brighter tomorrow.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var btn = document.querySelector('.menu-btn');
+    var nav = document.getElementById('site-nav');
+    if(!btn || !nav) return;
+    function setOpen(open){
+      nav.dataset.open = open ? 'true' : 'false';
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.textContent = open ? '閉じる' : 'メニュー';
+    }
+    btn.addEventListener('click', function(){ setOpen(nav.dataset.open !== 'true'); });
+    nav.addEventListener('click', function(e){ if(e.target.closest('a')) setOpen(false); });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && nav.dataset.open === 'true'){ setOpen(false); btn.focus(); }
+    });
+    window.addEventListener('resize', function(){ if(window.innerWidth > 980) setOpen(false); });
+  })();
+</script>
+</body>
+</html>
