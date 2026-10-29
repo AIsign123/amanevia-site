@@ -1,0 +1,35 @@
+From e2e3f9b8d0b602373679e2135f61ede82327daf6 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Thu, 29 Oct 2026 14:20:38 +0900
+Subject: [PATCH] =?UTF-8?q?=E7=AC=AC=E4=B8=89=E8=80=85=E8=A6=96=E7=82=B9?=
+ =?UTF-8?q?=E3=83=AC=E3=83=93=E3=83=A5=E3=83=BC=E3=81=AE=E4=BF=AE=E6=AD=A3?=
+ =?UTF-8?q?=E6=A1=88(PR=20#6=E5=90=91=E3=81=91):=20=E3=81=82=E3=81=BE?=
+ =?UTF-8?q?=E3=81=AD=E5=A0=B4=E3=82=92=E3=80=81=E5=AE=9F=E5=9C=A8=E3=81=AE?=
+ =?UTF-8?q?=E5=A0=B4=E3=81=A7=E3=81=AF=E3=81=AA=E3=81=8F=E7=9B=AE=E6=8C=87?=
+ =?UTF-8?q?=E3=81=99=E5=A7=BF=E3=81=A8=E3=81=97=E3=81=A6=E8=A1=A8=E7=8F=BE?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_013nsbi5RSNmQLomC1KT1cSo
+---
+ public/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/public/index.html b/public/index.html
+index 09c3d35..c4b2ef9 100644
+--- a/public/index.html
++++ b/public/index.html
+@@ -479,7 +479,7 @@
+       <p class="eyebrow">遍く道 — Our Way</p>
+       <h2 style="max-width:16ch;">遍く、しかし<br>諦めない。</h2>
+       <blockquote class="pull">あまねく支え合う。あまねく喜び合う。あまねく躍動する。あまねく進歩する。<br>相手を思いやる心と、本質を見極める力で、互いの可能性をひらく。<br>そして、世界の平和と科学の進歩を、未来へ、宇宙へつないでいく。</blockquote>
+-      <p class="lede" style="max-width:56ch;">Amaneviaの名に込めた「遍く」は、分け隔てなく人々の可能性をひらきたいという願い。「道（Via）」は、学び、試し、確かめ、改善しながら歩み続ける姿勢です。「ネバ」には、苦しみに耐えることよりも、探究する喜びを大切にし、よりよい未来を目指して歩み続ける思いを込めています。顧客・パートナー・専門家が集う「あまね場」——好奇心と尊重が行き交う場——で、研究のデライト（発見の喜び）を分かち合い、壁をともに乗り越えていきます。</p>
++      <p class="lede" style="max-width:56ch;">Amaneviaの名に込めた「遍く」は、分け隔てなく人々の可能性をひらきたいという願い。「道（Via）」は、学び、試し、確かめ、改善しながら歩み続ける姿勢です。「ネバ」には、苦しみに耐えることよりも、探究する喜びを大切にし、よりよい未来を目指して歩み続ける思いを込めています。顧客・パートナー・専門家が集える「あまね場」——好奇心と尊重が行き交う場——を育てながら、研究のデライト（発見の喜び）を分かち合い、壁をともに乗り越えていきたいと考えています。</p>
+ 
+       <p class="lede" style="max-width:56ch;">私たちが大切にするのは、<strong>相手を思いやる心と、本質を見極める力</strong>です。相手の立場に立ち、何に困り、何を実現したいのかを理解する。そして、事実を確かめ、課題の本質を捉え、その人や組織にとって本当に役立つ方法を考える。思いやりを気持ちだけで終わらせず、確かな判断と行動につなげることを大切にしています。</p>
+ 
+-- 
+2.43.0
+
