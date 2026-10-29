@@ -34,6 +34,14 @@ REL={'R201':['P037','T014','P040'],'P037':['R201','P038','T014'],'T014':['R201',
  'T018':['T052','T055'],'T052':['T018','R001'],'T362':['T018','P018'],'P018':['P001','T362'],'P001':['P018'],
  'T312':['R001','T329'],'T329':['T312','T052'],'R001':['R002','T312','R012'],'R002':['R003','R004','R012','R001'],
  'R003':['R002','R004'],'R004':['R002','R003','R012'],'R012':['R002','R004']}
+PAGES={ # 用語から関連ページへ（本文にその語や主題が実在するページのみ。相談への誘導ではない。編集者の整理）
+ 'R201':('/services/business-analysis','ビジネスアナリシス（BA）支援'),'T055':('/services/business-analysis','ビジネスアナリシス（BA）支援'),
+ 'P040':('/tomorrow/insights/customer-value','本当の価値を見つけ、選ばれ続けるために'),
+ 'T018':('/services/business-analysis','ビジネスアナリシス（BA）支援'),'T052':('/tomorrow/services/robotics','AI・ロボティクス社会実装の構想支援'),
+ 'T362':('/tomorrow/services/pmo','経営・プロジェクト伴走／PMO支援'),
+ 'T312':('/tomorrow/insights/ai-human','AIにまかせることと、人が大切にすること'),
+ 'R001':('/tomorrow/services/robotics','AI・ロボティクス社会実装の構想支援'),'R002':('/tomorrow/services/robotics','AI・ロボティクス社会実装の構想支援'),
+ 'R003':('/tomorrow/services/robotics','AI・ロボティクス社会実装の構想支援'),'R004':('/tomorrow/services/robotics','AI・ロボティクス社会実装の構想支援'),'R012':('/tomorrow/services/robotics','AI・ロボティクス社会実装の構想支援')}
 KEEP=['id','term_ja','term_en','category','definition','example','question','caution','source_title','source_url','source_section','source_type','reviewed_on','secondary_url','homepage_featured']
 ids={t['id'] for t in src['terms']}
 assert len(ids)==20==len(src['terms'])
@@ -41,6 +49,7 @@ out=[]
 for t in src['terms']:
     t=dict(t);t.update(FIX.get(t['id'],{}))
     o={k:t[k] for k in KEEP}
+    if t['id'] in PAGES: o['page']={'href':PAGES[t['id']][0],'label':PAGES[t['id']][1]}
     o['aliases']=ALIAS.get(t['id'],[]);o['related']=REL.get(t['id'],[])
     assert all(r in ids for r in o['related'])
     out.append(o)

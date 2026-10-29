@@ -18,6 +18,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": true,
+   "page": {
+    "href": "/services/business-analysis",
+    "label": "ビジネスアナリシス（BA）支援"
+   },
    "aliases": [
     "BA",
     "ビジネス分析"
@@ -165,6 +169,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": false,
+   "page": {
+    "href": "/services/business-analysis",
+    "label": "ビジネスアナリシス（BA）支援"
+   },
    "aliases": [],
    "related": [
     "P038",
@@ -188,6 +196,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": false,
+   "page": {
+    "href": "/tomorrow/insights/customer-value",
+    "label": "本当の価値を見つけ、選ばれ続けるために"
+   },
    "aliases": [],
    "related": [
     "R201",
@@ -210,6 +222,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": true,
+   "page": {
+    "href": "/services/business-analysis",
+    "label": "ビジネスアナリシス（BA）支援"
+   },
    "aliases": [
     "重要業績評価指標",
     "Key Performance Indicator"
@@ -235,6 +251,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": true,
+   "page": {
+    "href": "/tomorrow/services/robotics",
+    "label": "AI・ロボティクス社会実装の構想支援"
+   },
    "aliases": [
     "POC",
     "概念実証",
@@ -261,6 +281,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
    "homepage_featured": true,
+   "page": {
+    "href": "/tomorrow/services/pmo",
+    "label": "経営・プロジェクト伴走／PMO支援"
+   },
    "aliases": [
     "プロジェクトマネジメントオフィス",
     "Project Management Office",
@@ -336,6 +360,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": true,
+   "page": {
+    "href": "/tomorrow/insights/ai-human",
+    "label": "AIにまかせることと、人が大切にすること"
+   },
    "aliases": [
     "GenAI",
     "Generative AI",
@@ -387,6 +415,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "https://www.nvidia.com/en-us/glossary/generative-physical-ai/",
    "homepage_featured": true,
+   "page": {
+    "href": "/tomorrow/services/robotics",
+    "label": "AI・ロボティクス社会実装の構想支援"
+   },
    "aliases": [
     "Physical AI"
    ],
@@ -412,6 +444,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": true,
+   "page": {
+    "href": "/tomorrow/services/robotics",
+    "label": "AI・ロボティクス社会実装の構想支援"
+   },
    "aliases": [
     "Robot"
    ],
@@ -438,6 +474,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": false,
+   "page": {
+    "href": "/tomorrow/services/robotics",
+    "label": "AI・ロボティクス社会実装の構想支援"
+   },
    "aliases": [],
    "related": [
     "R002",
@@ -460,6 +500,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": false,
+   "page": {
+    "href": "/tomorrow/services/robotics",
+    "label": "AI・ロボティクス社会実装の構想支援"
+   },
    "aliases": [],
    "related": [
     "R002",
@@ -483,6 +527,10 @@
    "reviewed_on": "2026-10-29",
    "secondary_url": "",
    "homepage_featured": false,
+   "page": {
+    "href": "/tomorrow/services/robotics",
+    "label": "AI・ロボティクス社会実装の構想支援"
+   },
    "aliases": [
     "AMR",
     "AGV"

@@ -18,6 +18,7 @@ function card(x){
  if(x.question){var n=el('div','gl-note');n.appendChild(el('strong','','明日への問い　'));n.appendChild(document.createTextNode(x.question));a.appendChild(n)}
  var d=el('details','gl-detail');d.appendChild(el('summary','','関連する言葉・参考資料'));var inner=el('dl');
  if(x.related&&x.related.length){var w=el('div');w.appendChild(el('dt','','関連する言葉'));var dd=el('dd','gl-rel');x.related.forEach(function(id){var r=BYID[id];if(!r)return;var l=el('a','',r.term_ja);l.href='#t-'+id;l.addEventListener('click',function(ev){ev.preventDefault();goTo(id)});dd.appendChild(l)});w.appendChild(dd);inner.appendChild(w)}
+ if(x.page&&/^\/[a-z]/.test(x.page.href)){var pw=el('div');pw.appendChild(el('dt','','関連するページ'));var pd=el('dd');var pa=el('a','',x.page.label);pa.href=x.page.href;pd.appendChild(pa);pw.appendChild(pd);inner.appendChild(pw)}
  var u=safeUrl(x.source_url);if(u){var b=el('div');b.appendChild(el('dt','','参考資料'));var dd2=el('dd');dd2.appendChild(link(u,x.source_title+'（'+u.hostname+'）'));dd2.appendChild(el('span','small muted','参照箇所：'+x.source_section+'／確認日：'+x.reviewed_on+'。参照先であり、第三者の推薦ではありません。'));var s=safeUrl(x.secondary_url);if(s)dd2.appendChild(link(s,'補足資料（'+s.hostname+'）'));b.appendChild(dd2);inner.appendChild(b)}
  d.appendChild(inner);a.appendChild(d);return a}
 function render(){
@@ -42,5 +43,5 @@ function init(data){
  $('loading').hidden=true;
  if(/^#t-[A-Z]\d{3}$/.test(location.hash)){var id=location.hash.slice(3);if(BYID[id])setTimeout(function(){goTo(id)},0)}}
 window.addEventListener('hashchange',function(){if(/^#t-[A-Z]\d{3}$/.test(location.hash)&&BYID[location.hash.slice(3)])goTo(location.hash.slice(3))});
-fetch('/tomorrow/glossary/glossary.json?v=20261029e').then(function(r){if(!r.ok)throw new Error(r.status);return r.json()}).then(init).catch(function(){var l=$('loading');l.hidden=false;l.className='gl-error';l.setAttribute('role','alert');l.textContent='用語データを読み込めませんでした。時間をおいて、もう一度お試しください。'});
+fetch('/tomorrow/glossary/glossary.json?v=20261029f').then(function(r){if(!r.ok)throw new Error(r.status);return r.json()}).then(init).catch(function(){var l=$('loading');l.hidden=false;l.className='gl-error';l.setAttribute('role','alert');l.textContent='用語データを読み込めませんでした。時間をおいて、もう一度お試しください。'});
 })();

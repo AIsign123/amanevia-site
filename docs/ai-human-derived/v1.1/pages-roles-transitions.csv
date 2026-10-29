@@ -1,0 +1,38 @@
+﻿path,役割,title,パンくず,noindex,OGP基本,canonical,被リンク数(内部),リンク先数(内部),外部リンク数
+/,既存の企業トップ（本番・変更なし）,Amanevia,False,(なし=本番),False,False,0,0,0
+/services/business-analysis,サービス：BA支援,ビジネスアナリシス（BA）支援 | Amanevia株式会社,True,"noindex,nofollow",True,False,35,10,4
+/tomorrow,入口（4つの入口／3つの始め方／用語集8語）,明日が少し豊かになる入口 | Amanevia株式会社,False,"noindex,nofollow",True,False,35,15,6
+/tomorrow/about/our-way,理念：遍く道・平和モデル・信念モデル,遍く道（Our Way）・平和モデル・信念モデル | Amanevia株式会社,True,"noindex,nofollow",True,False,2,11,3
+/tomorrow/about/principles,理念：大切にすること,Amaneviaが大切にすること | Amanevia株式会社,True,"noindex,nofollow",True,False,6,11,3
+/tomorrow/about/representative,会社・代表者,代表者と私たちの姿勢 | Amanevia株式会社,True,"noindex,nofollow",True,False,35,9,3
+/tomorrow/concerns,課題の理解：悩みから探す,困りごとから探す | Amanevia株式会社,True,"noindex,nofollow",True,False,35,15,3
+/tomorrow/concerns/communication,課題の理解：個別の悩み,指示が伝わらないとき | Amanevia株式会社,True,"noindex,nofollow",True,False,3,10,3
+/tomorrow/concerns/operations,課題の理解：個別の悩み,仕事が属人化しているとき | Amanevia株式会社,True,"noindex,nofollow",True,False,2,11,3
+/tomorrow/concerns/people,課題の理解：個別の悩み,人が育たないと感じるとき | Amanevia株式会社,True,"noindex,nofollow",True,False,4,11,3
+/tomorrow/concerns/relationships,課題の理解：個別の悩み,安心して話せないとき | Amanevia株式会社,True,"noindex,nofollow",True,False,2,10,3
+/tomorrow/discover,学び：読みもの一覧,気づきの読みもの | Amanevia株式会社,True,"noindex,nofollow",True,False,35,17,3
+/tomorrow/glossary,学び・用語：基本用語20語,基本用語集｜知ることで、仕事と未来の見え方が変わる | Amanevia株式会社,True,"noindex,nofollow",True,False,35,12,3
+/tomorrow/insights/ai-human,気づき・考え方／AI・技術／社会実装の読みもの,AIにまかせることと、人が大切にすること | Amanevia株式会社,True,"noindex,nofollow",True,False,9,13,10
+/tomorrow/insights/before-anger,気づき・考え方／AI・技術／社会実装の読みもの,怒りで動かす前に、人を大切に | Amanevia株式会社,True,"noindex,nofollow",True,False,5,12,5
+/tomorrow/insights/classics-and-future,気づき・考え方／AI・技術／社会実装の読みもの,古典の知恵から、人と科学の未来へ | Amanevia株式会社,True,"noindex,nofollow",True,False,11,19,18
+/tomorrow/insights/customer-value,気づき・考え方／AI・技術／社会実装の読みもの,本当の価値を見つけ、選ばれ続けるために | Amanevia株式会社,True,"noindex,nofollow",True,False,8,12,6
+/tomorrow/insights/editorial-decisions,気づき・考え方／AI・技術／社会実装の読みもの,優れた判断を育てる「編集長」の考え方 | Amanevia株式会社,True,"noindex,nofollow",True,False,7,12,7
+/tomorrow/insights/education-and-business,気づき・考え方／AI・技術／社会実装の読みもの,教育と経営をつなぎ直す | Amanevia株式会社,True,"noindex,nofollow",True,False,3,13,3
+/tomorrow/insights/human-strengths,気づき・考え方／AI・技術／社会実装の読みもの,人を応援する経営を考える | Amanevia株式会社,True,"noindex,nofollow",True,False,7,13,3
+/tomorrow/insights/learning-from-predecessors,気づき・考え方／AI・技術／社会実装の読みもの,先人の知と、いまの現場から学ぶ | Amanevia株式会社,True,"noindex,nofollow",True,False,2,13,6
+/tomorrow/insights/learning-with-ai,気づき・考え方／AI・技術／社会実装の読みもの,AIとともに、考える力を育てる | Amanevia株式会社,True,"noindex,nofollow",True,False,8,13,8
+/tomorrow/insights/tomorrows-step,気づき・考え方／AI・技術／社会実装の読みもの,明日の一歩を見つける | Amanevia株式会社,True,"noindex,nofollow",True,False,6,9,3
+/tomorrow/insights/words-that-endure,気づき・考え方／AI・技術／社会実装の読みもの,時を越えて、いまを応援する言葉 | Amanevia株式会社,True,"noindex,nofollow",True,False,3,11,4
+/tomorrow/leadership,人と組織：8つの視点,信頼されるリーダーの8つの視点 | Amanevia株式会社,True,"noindex,nofollow",True,False,35,18,3
+/tomorrow/leadership/cognitive-limits,人と組織：視点の詳細,思い込みと情報の限界に気づく | Amanevia株式会社,True,"noindex,nofollow",True,False,4,10,3
+/tomorrow/leadership/dialogue,人と組織：視点の詳細,成長を支える対話を考える | Amanevia株式会社,True,"noindex,nofollow",True,False,5,11,3
+/tomorrow/leadership/human-ai-collaboration,人と組織：視点の詳細,AI・ロボットと人が協働する | Amanevia株式会社,True,"noindex,nofollow",True,False,6,12,3
+/tomorrow/leadership/human-and-machine,人と組織：視点の詳細,一人の人として向き合う | Amanevia株式会社,True,"noindex,nofollow",True,False,4,10,3
+/tomorrow/leadership/learning-organization,人と組織：視点の詳細,学びを次の世代へ継ぐ | Amanevia株式会社,True,"noindex,nofollow",True,False,4,11,3
+/tomorrow/leadership/self-reflection,人と組織：視点の詳細,経営者自身の振り返り | Amanevia株式会社,True,"noindex,nofollow",True,False,5,10,3
+/tomorrow/leadership/system-design,人と組織：視点の詳細,個人ではなく、仕組みから見直す | Amanevia株式会社,True,"noindex,nofollow",True,False,5,10,3
+/tomorrow/leadership/understanding-reactions,人と組織：視点の詳細,人の反応と職場環境を理解する | Amanevia株式会社,True,"noindex,nofollow",True,False,4,10,4
+/tomorrow/services,サービスと相談：一覧,Amaneviaの支援サービス | Amanevia株式会社,True,"noindex,nofollow",True,False,35,10,3
+/tomorrow/services/pmo,サービス：PMO（考え方）,経営・プロジェクト伴走／PMO支援 | Amanevia株式会社,True,"noindex,nofollow",True,False,4,9,3
+/tomorrow/services/robotics,サービス：ロボティクス構想（考え方）,AI・ロボティクス社会実装の構想支援 | Amanevia株式会社,True,"noindex,nofollow",True,False,4,10,3
+/tomorrow/sources,参考資料と根拠,出典と適用範囲の一覧 | Amanevia株式会社,True,"noindex,nofollow",True,False,4,12,17
