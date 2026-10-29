@@ -13,3 +13,6 @@
 
 ## 注意（ブランチの前後関係）
 `feature/tomorrow-additive` 上の `public/index.html` は、まだPR #3/#5 を取り込む前の旧版。トップの更新は PR #5 → 新PRの順にマージして反映される。
+
+## 追加（2026-10-29）研究と実装の信念
+`/tomorrow/about/our-way` の末尾に、Founder提供の文章「研究と実装の信念」を追加（v1.2本文ではなくFounder追記。大学名は載せない指示）。トップへの反映は未実施。
