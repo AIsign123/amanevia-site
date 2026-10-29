@@ -75,6 +75,6 @@ ol.principles{padding-left:1.4em}ol.principles li{padding:7px 0}
 @media (max-width:520px){.section.warm::after,.section.tint::after,.contact-section::after,.respect::after{opacity:.16}}
 @media print{.section::after,.page-hero::after,.contact-section::after,.respect::after{display:none!important}}
 
-/* 遍く道 v1.2 全文ページ */
+/* あまねく道 v1.2 全文ページ */
 .pull-q{border-left:4px solid var(--teal,#2a9d8f);padding:6px 0 6px 18px;margin:0 0 24px;font-weight:700;line-height:1.85;max-width:46ch}
 .gl-tile-b{display:flex;flex-direction:column;gap:4px;font-weight:800}.gl-tile-b small{font-weight:400;color:var(--mist);font-size:.82rem;line-height:1.6}
