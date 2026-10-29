@@ -269,6 +269,8 @@
   }
   .credo-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:28px; margin-top:36px; }
   @media (max-width:720px){ .credo-grid{ grid-template-columns:1fr; } }
+  .credo-grid.scope-grid{ grid-template-columns:repeat(3,1fr); margin:8px 0 36px; }
+  @media (max-width:900px){ .credo-grid.scope-grid{ grid-template-columns:1fr; } }
   .credo-grid h3{ font-size:1rem; letter-spacing:.02em; }
   .credo-grid p{ font-size:0.92rem; }
   .credo-grid .n{ font-family:"IBM Plex Mono",monospace; color:var(--gold); font-size:0.75rem; }
@@ -318,6 +320,7 @@
       <a href="#record">実績</a>
       <a href="#philosophy">理念</a>
       <a href="#about">会社概要</a>
+      <a href="/tomorrow">仕事と未来への気づき</a>
       <a href="#contact">お問い合わせ</a>
     </nav>
   </div>
@@ -430,8 +433,8 @@
         </div>
         <div class="dial">
           <p class="tag">Origin</p>
-          <h3>船舶・海洋工学が原点</h3>
-          <p>国立大学工学部で、研究用の船の運航や計測・制御の実験を支える仕事に関わりました。研究をやり遂げることはできませんでしたが、そこでの海の体験が、いまの原点です。海事の原点と、AI、プロジェクトマネジメントを結びつける立ち位置。</p>
+          <h3>研究の現場を支える仕事が原点</h3>
+          <p>国立大学工学部の自動化船舶の研究開発プロジェクトで、研究用の計測船の運航、三次元計測装置の操作・保守、制御実験の補佐に関わりました。研究者と現場のあいだで計測と運用を支えた経験が、いまのPMOとAI導入支援の土台です。</p>
         </div>
         <div class="dial">
           <p class="tag">Neutral</p>
@@ -452,16 +455,28 @@
       <div class="section-head">
         <p class="eyebrow">航海日誌 — Track Record</p>
         <h2>実績ログ</h2>
-        <p class="lede muted">守秘義務に配慮し、業種・規模・役割を中心に記載しています。</p>
+        <p class="lede muted">守秘義務に配慮し、業種・規模・役割を中心に記載しています。以下は代表者個人のこれまでの職務経験であり、Amanevia株式会社としての受注・納品実績ではありません。</p>
       </div>
       <div class="log">
         <div class="log-entry">
-          <div class="date">2026.04 —</div>
-          <div><h4>国内大手保険会社・銀行 / 上流PMO</h4><p>OT計画書・移行計画の策定、RFI/RFPプロセス設計、ベンダー評価方法の策定、次世代システムの非機能要件整理を担当。</p></div>
+          <div class="date">2025.07–2026.03</div>
+          <div><h4>ITインフラサービスの管理 / サービスマネージャー</h4><p>ITILを基にしたサービス管理を担当。キャパシティ、構成、ナレッジ、インシデント、コスト、サービス要求の管理を実施し、SRE関連のサービスマネジメントに従事。</p></div>
         </div>
         <div class="log-entry">
           <div class="date">2023.10–2024.09</div>
-          <div><h4>国内大手セキュリティ会社 / 金融システム更改</h4><p>次世代金融バンキングシステムの設計・構築・テスト・移行をプロジェクトリーダーとして推進。108金融機関対象の本番移行にも参画。</p></div>
+          <div><h4>国内大手セキュリティ会社 / 金融システム更改</h4><p>設計・構築・テスト・移行を伴う更改案件に、SE／PMO・担当領域リーダーとして参画。プロジェクトおよび移行の推進、業務継続性に関する点検対応、移行リスク管理、ベンダー調整、課題・成果物管理を担当。</p></div>
+        </div>
+        <div class="log-entry">
+          <div class="date">2022.07–2023.05</div>
+          <div><h4>国内金融システム / 運用設計と変更調整（SE・PMO）</h4><p>2022年7〜10月はファイル転送関連の工数見積、ベンダー・関係者調整、設定変更手順書レビュー等を担当。2022年11月〜2023年5月はAWS・コンテナ基盤の運用設計支援として、課題・QA・要件確認、ServiceNowの機能調査、基盤運用フローの調査に従事。</p></div>
+        </div>
+        <div class="log-entry">
+          <div class="date">2021.09–2022.06</div>
+          <div><h4>公共案件 / 基盤構築と運用設計</h4><p>RHELサーバー約200台の構築、ミドルウェア導入手順、運用フロー・手順の作成を担当。</p></div>
+        </div>
+        <div class="log-entry">
+          <div class="date">2015.06–2016.06</div>
+          <div><h4>金融システム移行 / 品質管理リーダー補佐</h4><p>VBAを用いたSQL・転送バッチ等の移行資材の作成、管理表・運用サイクルの改善、リハーサル・移行作業、テストデータ準備、手順書作成を担当。</p></div>
         </div>
         <div class="log-entry">
           <div class="date">2000.04–2005.03</div>
@@ -476,25 +491,46 @@
     <div class="wrap">
       <p class="eyebrow">遍く道 — Our Way</p>
       <h2 style="max-width:16ch;">遍く、しかし<br>諦めない。</h2>
-      <blockquote class="pull">あまねく支え合う。あまねく喜び合う。あまねく躍動する。あまねく進歩する。<br>そして、宇宙への科学技術を、ともに深めていく。</blockquote>
-      <p class="lede" style="max-width:56ch;">「アマネビア」の名は、遍く（あまねく）と、道（Via）を歩み続けるという意味の「ネバ」——Never ending story を重ねています。歯を食いしばって耐え続けることではなく、他者の視点に立ち、世界が少しずつ変わっていく過程を、ともに分かち合い、喜び合う——研究のデライト（発見の喜び）を道として歩み続ける姿勢です。一人の専門性だけでなく、顧客・パートナー・専門家が集う「あまね場」——好奇心と尊重が行き交う場——で、未知を照らし、壁をともに乗り越え、技術を深めていく。その歩みが、次の世代の学びと成長、会社の成長、そして円満で誠のある、世界の平和へつながっていくことを願っています。</p>
+      <blockquote class="pull">あまねく支え合う。あまねく喜び合う。あまねく躍動する。あまねく進歩する。<br>相手を思いやる心と、本質を見極める力で、互いの可能性をひらく。<br>そして、世界の平和と科学の進歩を、未来へ、宇宙へつないでいく。</blockquote>
+      <p class="lede" style="max-width:56ch;">Amaneviaの名に込めた「遍く」は、分け隔てなく人々の可能性をひらきたいという願い。「道（Via）」は、学び、試し、確かめ、改善しながら歩み続ける姿勢です。「ネバ」には、苦しみに耐えることよりも、探究する喜びを大切にし、よりよい未来を目指して歩み続ける思いを込めています。「あまね場」とは、立場を問わず、二人以上が語り合うところに生まれる、好奇心と尊重が行き交う場。見えないご縁も含めて育てながら、研究のデライト（発見の喜び）を分かち合い、壁をともに乗り越えていきたいと考えています。</p>
 
-      <blockquote class="pull" style="border-left-color: rgba(255,255,255,0.5); font-weight:400; font-size:1.05rem; max-width:56ch; opacity:0.95;">案件は、納品して終わりにしない。<br>悩みや行き詰まりを解消した、その先にある喜び・楽しさ・本質的な幸福まで見据えて関わる。<br>ひとつの案件、ひとりの経営者と、丁寧に向き合う——<br>その積み重ねの先に、明日が少し豊かになる希望を、ともに見いだしたい。<br>そのために、まず私たち自身が、きちんと泳げること。信用と信頼を、行動で積み重ねること。それが、すべての出発点です。</blockquote>
+      <p class="lede" style="max-width:56ch;">私たちが大切にするのは、<strong>相手を思いやる心と、本質を見極める力</strong>です。相手の立場に立ち、何に困り、何を実現したいのかを理解する。そして、事実を確かめ、課題の本質を捉え、その人や組織にとって本当に役立つ方法を考える。思いやりを気持ちだけで終わらせず、確かな判断と行動につなげることを大切にしています。</p>
 
-      <blockquote class="pull" style="border-left-color: rgba(255,255,255,0.5);">まわりがあって、わたしがある。<br>お客様、パートナー、先人、家族、そして自然。多くの支えがあって、私たちは仕事ができています。その「おかげさま」に応え続けることが、Amaneviaの存在意義です。</blockquote>
+      <blockquote class="pull" style="border-left-color: rgba(255,255,255,0.5); font-weight:400; font-size:1.05rem; max-width:56ch; opacity:0.95;">お客様には、私たちと出会う前よりも豊かになってほしい。<br>その豊かさは、売上や利益だけではありません。安心して働けること。時間に余裕が生まれること。新しいことを学び、挑戦できること。自分自身や組織の可能性に気づけること。<br>何が豊かさかは、お客様が決めること。私たちは、その実現に必要な知識や技術、選択肢、機会を届けます。</blockquote>
+
+      <p class="lede" style="max-width:56ch;">製品・サービス・AI・システム・ロボティクス・ヒューマノイドなどを、創造し、育て、改善し続ける喜び。その喜びを自分たちだけのものにせず、誰かの負担を減らし、新しい挑戦を支える価値へ変えていきたいと考えています。技術を導入すること自体が目的ではありません。思い込みだけで判断せず、小さく試し、結果を確かめ、必要に応じて方法を改める。そのために、まず私たち自身が、きちんと泳げること。誠実に学び、改善を重ねて、信用と信頼を、行動で積み重ねること。それが、すべての出発点です。</p>
+
+      <div class="credo-grid scope-grid">
+        <div>
+          <p class="n">NOW / 現在の業務</p>
+          <p>PMO、AI導入支援、プロジェクト診断、研究開発支援。</p>
+        </div>
+        <div>
+          <p class="n">RESEARCH OPTION / 研究・PoCの候補</p>
+          <p>ロボティクス、ヒューマノイド、AI for Science。構想・研究の候補であり、完成した製品や実績ではありません。機会に応じ、研究機関・協力先と共同検討します。権利と技術をお持ちの方を尊重し、推進役（PMO）として関わる予定です。権利や主権を奪うことはしません。</p>
+        </div>
+        <div>
+          <p class="n">NORTH STAR / 長期の北極星</p>
+          <p>人々の安全と福祉、世界の平和、地球から宇宙への探究。達成の時期や成果は約束しません。</p>
+        </div>
+      </div>
+
+      <blockquote class="pull" style="border-left-color: rgba(255,255,255,0.5);">まわりがあって、わたしがある。<br>お客様、パートナー、先人、家族、地域、そして自然。多くの支えがあって、私たちは生き、仕事ができています。その「おかげさま」への感謝を、次の誰かの安心、喜び、学び、可能性へとつなげていきます。</blockquote>
 
       <div class="credo-grid">
         <div>
           <p class="n">PEACE MODEL</p>
           <h3>平和モデル — まわりと、共に成り立つ。</h3>
-          <p>勝ち負けではなく、「共に成り立つ条件」を探す。<br>人を責めるより、可能性を見つける。相手の尊厳を、効率より先に守る。<br>撤退の作法も、相手の準備期間を尊重する。<br>先人の思いを、次の世代へ引き継ぐ。<br>AI・ロボティクスなどの技術は、人の安全と福祉、平和のために使う。</p>
+          <p>平和とは、争いがないことだけではなく、一人ひとりの尊厳が守られ、互いの違いを認め合い、安心して学び、働き、挑戦できる社会を育てることだと考えています。<br>勝ち負けだけで考えず、互いに価値を生み出し、共に成長できる関係を大切にします。<br>人を責めるよりも、問題の本質を理解し、改善できる可能性を探す。意見が異なるときこそ対話を重ね、不正や危険を見過ごさず、関わる人々の安全と権利を守ります。<br>技術も、人々の負担を減らし、安全を高め、学びや創造の機会を広げるために活用します。<br>世界の恒久平和という大きな願いを持ちながら、まずは目の前のお客様や仲間との信頼関係を大切にします。</p>
         </div>
         <div>
           <p class="n">BELIEF MODEL</p>
-          <h3>信念モデル — 行動で、信念を示す。</h3>
-          <p>言ったことと、行動を一致させる。できないことは、できるとは言わない。<br>時間を売るのではなく、お客様が次の一歩を決められることを届ける。<br>記録を信念の証とし、一つ一つの知見を、次へ渡せる種として蓄える。<br>先人に学び、確かめ、誤りは認めて改める。<br>善い行いが必ず報われる、とは約束しない。それでも、善い因を積み続ける。</p>
+          <h3>信念モデル — 思いやりと確かな判断を、価値ある行動へ。</h3>
+          <p>相手の立場に立ち、本質を見極める。話を聴き、事実を確かめ、できないことはできると言わない。<br>知恵と価値を分かち合い、共に豊かになる。相手が自ら判断し、成長できる関係を大切にする。<br>創造し、育て、改善し続けることを喜ぶ。<br>使命には粘り強く、方法には柔軟に。誤りがあれば改める。<br>正当な対価と利益を大切にし、信頼され、価値を届け続けられる会社であり続ける。<br>一つの仕事を、未来の種にする。お客様との約束、機密、権利を守りながら。<br>善い行いが、必ず望む結果を生むとは限りません。それでも、人を思いやり、事実に学び、誠実な行動を重ねます。</p>
         </div>
       </div>
+
+      <p class="lede" style="max-width:56ch; margin-top:28px;"><strong>小さく直し、あまねく拓く。</strong><br>一人の探究から、世界と宇宙の未来へ。</p>
     </div>
   </section>
 
@@ -524,9 +560,9 @@
       </div>
       <div class="contact-card">
         <span class="status-chip">現在、新規のご相談を受付中</span>
-        <p class="lede">プロジェクトが進まない、AI導入の進め方に迷っている、PMO機能を立ち上げたい——まずは現状をお聞かせください。ご相談は無料です。</p>
+        <p class="lede">プロジェクトが進まない、AI導入の進め方に迷っている、PMO機能を立ち上げたい——まずは現状をお聞かせください。ご相談・お問い合わせはメールで承っています。内容を確認のうえ、対応可能な範囲や進め方をご案内します。</p>
         <div class="cta-row">
-          <a class="btn primary" href="mailto:akira.inadomi@amanevia.com">メールで相談する</a>
+          <a class="btn primary" href="mailto:contact@amanevia.co.jp">メールで相談する</a>
         </div>
       </div>
     </div>
@@ -534,6 +570,9 @@
 </main>
 
 <footer>
+  <div class="wrap" style="width:100%; margin-bottom:14px;">
+    <a href="/tomorrow" style="color:inherit; text-decoration:none;"><strong>仕事と未来への気づき →</strong><br><span class="muted" style="font-size:.86rem;">仕事や技術、人との関わりについて、課題の整理から新しい可能性を考える読み物と基本用語を紹介しています。</span></a>
+  </div>
   <div class="wrap" style="width:100%; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; align-items:center;">
     <span style="display:flex; align-items:center; gap:.6em;"><img src="assets/logo-icon.png" alt=""> © Amanevia Inc.</span>
     <span>やさしさが、未来をつくる。— Gentle today, brighter tomorrow.</span>
