@@ -1,0 +1,240 @@
+{
+ "purpose": "内部・非公開の出典調査台帳。公開しない",
+ "as_of": "2026-10-29",
+ "entries": [
+  {
+   "id": "S01",
+   "source": "Noy & Zhang (2023) Science",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "453人／時間40%短縮／品質18%向上",
+   "used_on": "ai-human",
+   "note": "原典ページ(Stanford SCALE)で確認。ページ上は「平均作業時間40%減」で、ChatGPT群限定の記載ではない",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S02",
+   "source": "Brynjolfsson ほか (2025) QJE",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "5,172人／15%／経験差",
+   "used_on": "ai-human, customer-value",
+   "note": "リンク先は2023年WP表記。QJE 140(2)は検索結果で確認",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S03",
+   "source": "Dell’Acqua ほか (2023) HBS/BCG",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "758人／25%・40%・12%超（速度・人の評価・完了）／ギザギザの境界",
+   "used_on": "ai-human, editorial-decisions",
+   "note": "範囲外の数値はページになく不掲載",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S04",
+   "source": "Becker ほか (2025) METR",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "16人・246課題／+19%／予想24%短縮",
+   "used_on": "ai-human",
+   "note": "arXiv要旨で確認",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S05",
+   "source": "中小機構 解説記事 (2026-05-20)",
+   "status": "PARTIAL",
+   "supports_claims": "AI活用約3割／最多の理由",
+   "used_on": "customer-value",
+   "note": "記事の記述を紹介する形。母数・白書原典は未確認。本文は「中小企業全体の普及率と読まないで」と限定済み",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S06",
+   "source": "ILO (2025-05-20)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "4人に1人／3.3%／変化が最も起こりやすい",
+   "used_on": "ai-human",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S07",
+   "source": "Lee ほか CHI 2025",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "319人・936例／信頼と批判的思考の関連",
+   "used_on": "ai-human, editorial-decisions, learning-with-ai",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S08",
+   "source": "Barcaui (2025)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "n=120／45日後／57.5% vs 68.5%",
+   "used_on": "learning-with-ai",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S09",
+   "source": "Contractor & Reyes IZA DP 18792 (2026-07)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "0.27SD／1週間後も保持／augmentation使用者の遅延効果が大きい／automation使用者の短期効果は消失",
+   "used_on": "learning-with-ai",
+   "note": "査読前の可能性を本文で明記",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S10",
+   "source": "経済産業省 デジタルスキル標準 ver.2.0 (2026-04-16)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "公表日／データマネジメント・AI実装運用・AIガバナンスの追加",
+   "used_on": "learning-with-ai",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S17",
+   "source": "HBS Online Jobs to Be Done",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "定義",
+   "used_on": "customer-value",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S18",
+   "source": "内閣府 AI法",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "公布2025-06-04／全面施行09-01",
+   "used_on": "editorial-decisions",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S21",
+   "source": "個人情報保護委員会 FAQ",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "利用目的の範囲／機械学習に利用されないことの確認",
+   "used_on": "ai-human, editorial-decisions",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S26",
+   "source": "Liu ほか EdWorkingPaper 26-1598 (2026-10)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "2,379人・教員30人／-0.37SD／-0.90SD",
+   "used_on": "learning-with-ai",
+   "note": "「実際に使った学生は約15%」は報道情報で原典未確認と本文に明記",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S20",
+   "source": "総務省・経済産業省 AI事業者ガイドライン 第1.2版",
+   "status": "PARTIAL_UNUSED",
+   "supports_claims": "本文のどの主張も裏付けていない",
+   "used_on": "(なし)",
+   "note": "案内ページのみ確認、公表日の根拠が弱い。公開表から2026-10-29に除外",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S25",
+   "source": "W3C WCAG 2.2 勧告 (2023-10-05)",
+   "status": "VERIFIED_PAGE_UNUSED",
+   "supports_claims": "本文のどの主張も裏付けていない",
+   "used_on": "(なし)",
+   "note": "公開表から2026-10-29に除外（適合の主張を避けるため）",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S14",
+   "source": "Edmondson (1999) 心理的安全性",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "原典未確認。公開しない。本文で触れる場合は原典確認が必要",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S15",
+   "source": "OECD AI原則",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "同上",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S22",
+   "source": "NIST AI RMF",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "同上",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S23",
+   "source": "NIST 生成AIプロファイル",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "同上",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S24",
+   "source": "ISO/IEC 42001",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "同上",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S19",
+   "source": "内閣府 AI適正性確保指針",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "同上",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S16",
+   "source": "Google PAIR 人間中心AIガイド",
+   "status": "INSPIRATION_ONLY",
+   "supports_claims": "—（事実の根拠にしていない）",
+   "used_on": "(なし)",
+   "note": "任せ方の段階を整理する際の着想。内容の引用なし。分類の根拠は旧公開文の記述のみで、制作記録の独立確認は未了（代表者確認）",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S11",
+   "source": "渋沢栄一記念財団",
+   "status": "HOLD_UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "原典未確認。掲載保留",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S12",
+   "source": "トヨタ自動車 公式資料",
+   "status": "HOLD_UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "原典未確認。リンク条件はglobal.toyota/jp/terms-of-use/で確認（営利目的のリンクは拒否対象、トップページへのリンクを要請）。公開ページには掲載しない",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S13",
+   "source": "Drucker関連の書評",
+   "status": "HOLD_UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "原典未確認。掲載保留",
+   "checked": "2026-10-29"
+  }
+ ]
+}

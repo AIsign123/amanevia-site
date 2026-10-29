@@ -1,0 +1,27 @@
+﻿id,source,status,supports_claims,used_on,note,checked
+S01,Noy & Zhang (2023) Science,VERIFIED_PAGE,453人／時間40%短縮／品質18%向上,ai-human,原典ページ(Stanford SCALE)で確認。ページ上は「平均作業時間40%減」で、ChatGPT群限定の記載ではない,2026-10-29
+S02,Brynjolfsson ほか (2025) QJE,VERIFIED_PAGE,"5,172人／15%／経験差","ai-human, customer-value",リンク先は2023年WP表記。QJE 140(2)は検索結果で確認,2026-10-29
+S03,Dell’Acqua ほか (2023) HBS/BCG,VERIFIED_PAGE,758人／25%・40%・12%超（速度・人の評価・完了）／ギザギザの境界,"ai-human, editorial-decisions",範囲外の数値はページになく不掲載,2026-10-29
+S04,Becker ほか (2025) METR,VERIFIED_PAGE,16人・246課題／+19%／予想24%短縮,ai-human,arXiv要旨で確認,2026-10-29
+S05,中小機構 解説記事 (2026-05-20),PARTIAL,AI活用約3割／最多の理由,customer-value,記事の記述を紹介する形。母数・白書原典は未確認。本文は「中小企業全体の普及率と読まないで」と限定済み,2026-10-29
+S06,ILO (2025-05-20),VERIFIED_PAGE,4人に1人／3.3%／変化が最も起こりやすい,ai-human,,2026-10-29
+S07,Lee ほか CHI 2025,VERIFIED_PAGE,319人・936例／信頼と批判的思考の関連,"ai-human, editorial-decisions, learning-with-ai",,2026-10-29
+S08,Barcaui (2025),VERIFIED_PAGE,n=120／45日後／57.5% vs 68.5%,learning-with-ai,,2026-10-29
+S09,Contractor & Reyes IZA DP 18792 (2026-07),VERIFIED_PAGE,0.27SD／1週間後も保持／augmentation使用者の遅延効果が大きい／automation使用者の短期効果は消失,learning-with-ai,査読前の可能性を本文で明記,2026-10-29
+S10,経済産業省 デジタルスキル標準 ver.2.0 (2026-04-16),VERIFIED_PAGE,公表日／データマネジメント・AI実装運用・AIガバナンスの追加,learning-with-ai,,2026-10-29
+S17,HBS Online Jobs to Be Done,VERIFIED_PAGE,定義,customer-value,,2026-10-29
+S18,内閣府 AI法,VERIFIED_PAGE,公布2025-06-04／全面施行09-01,editorial-decisions,,2026-10-29
+S21,個人情報保護委員会 FAQ,VERIFIED_PAGE,利用目的の範囲／機械学習に利用されないことの確認,"ai-human, editorial-decisions",,2026-10-29
+S26,Liu ほか EdWorkingPaper 26-1598 (2026-10),VERIFIED_PAGE,"2,379人・教員30人／-0.37SD／-0.90SD",learning-with-ai,「実際に使った学生は約15%」は報道情報で原典未確認と本文に明記,2026-10-29
+S20,総務省・経済産業省 AI事業者ガイドライン 第1.2版,PARTIAL_UNUSED,本文のどの主張も裏付けていない,(なし),案内ページのみ確認、公表日の根拠が弱い。公開表から2026-10-29に除外,2026-10-29
+S25,W3C WCAG 2.2 勧告 (2023-10-05),VERIFIED_PAGE_UNUSED,本文のどの主張も裏付けていない,(なし),公開表から2026-10-29に除外（適合の主張を避けるため）,2026-10-29
+S14,Edmondson (1999) 心理的安全性,UNVERIFIED,—,(なし),原典未確認。公開しない。本文で触れる場合は原典確認が必要,2026-10-29
+S15,OECD AI原則,UNVERIFIED,—,(なし),同上,2026-10-29
+S22,NIST AI RMF,UNVERIFIED,—,(なし),同上,2026-10-29
+S23,NIST 生成AIプロファイル,UNVERIFIED,—,(なし),同上,2026-10-29
+S24,ISO/IEC 42001,UNVERIFIED,—,(なし),同上,2026-10-29
+S19,内閣府 AI適正性確保指針,UNVERIFIED,—,(なし),同上,2026-10-29
+S16,Google PAIR 人間中心AIガイド,INSPIRATION_ONLY,—（事実の根拠にしていない）,(なし),任せ方の段階を整理する際の着想。内容の引用なし。分類の根拠は旧公開文の記述のみで、制作記録の独立確認は未了（代表者確認）,2026-10-29
+S11,渋沢栄一記念財団,HOLD_UNVERIFIED,—,(なし),原典未確認。掲載保留,2026-10-29
+S12,トヨタ自動車 公式資料,HOLD_UNVERIFIED,—,(なし),原典未確認。リンク条件はglobal.toyota/jp/terms-of-use/で確認（営利目的のリンクは拒否対象、トップページへのリンクを要請）。公開ページには掲載しない,2026-10-29
+S13,Drucker関連の書評,HOLD_UNVERIFIED,—,(なし),原典未確認。掲載保留,2026-10-29
