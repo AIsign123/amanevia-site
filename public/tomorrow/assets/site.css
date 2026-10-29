@@ -62,3 +62,15 @@ ol.principles{padding-left:1.4em}ol.principles li{padding:7px 0}
  .matrix th[scope=row]:before{content:none}
 }
 @media print{.preview-band,.site-header,.site-footer,.contact-section,.related,.skip-link,.breadcrumb,.respect{display:none!important}body{background:#fff}.section,.section-tight{padding:14px 0!important}.table-wrap{overflow:visible}details.evidence:not([open]) *:not(summary){display:block}a{color:#000}}
+
+/* --- 星の道しるべ(装飾・追加) --- */
+.section.warm,.section.tint,.contact-section,.respect,.section-tight.related{position:relative;overflow:hidden}
+.section.warm::after,.section.tint::after,.contact-section::after,.respect::after{content:"";position:absolute;right:clamp(10px,3vw,48px);top:clamp(10px,2vw,26px);width:clamp(54px,8vw,104px);aspect-ratio:1;background:center/contain no-repeat;opacity:.26;pointer-events:none}
+.section.warm::after{background-image:url(/tomorrow/assets/stars/crux.svg)}
+.section.tint::after{background-image:url(/tomorrow/assets/stars/cassiopeia.svg)}
+.respect::after{background-image:url(/tomorrow/assets/stars/orion.svg);top:auto;bottom:6px}
+.contact-section::after{background-image:url(/tomorrow/assets/stars/polaris-light.svg);opacity:.32}
+.page-hero::after{content:"";position:absolute;left:clamp(8px,2vw,28px);bottom:clamp(8px,2vw,22px);width:clamp(60px,9vw,120px);aspect-ratio:1;background:url(/tomorrow/assets/stars/polaris.svg) center/contain no-repeat;opacity:.24;pointer-events:none}
+.star-guide .cards{margin-top:22px}.star-guide figure{margin:0 0 12px}.star-guide img{display:block;width:84px;height:84px;background:#F4F7FA;border-radius:14px;padding:8px}
+@media (max-width:520px){.section.warm::after,.section.tint::after,.contact-section::after,.respect::after{opacity:.16}}
+@media print{.section::after,.page-hero::after,.contact-section::after,.respect::after{display:none!important}}
