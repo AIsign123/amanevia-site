@@ -302,6 +302,18 @@
     display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; align-items:center;
   }
   footer img{ height:18px; width:auto; opacity:0.85; }
+
+/* 星の並び(装飾): 地球と宇宙を意識し、技術を高める気持ちを底流に */
+.hero,#problem,#services,#strengths,#record,#philosophy,#about,#contact{position:relative}
+.hero::after,#problem::after,#about::after,#strengths::after,#philosophy::after,#contact::after{content:"";position:absolute;right:clamp(10px,3vw,48px);top:clamp(10px,2vw,26px);width:clamp(54px,8vw,104px);aspect-ratio:1;background:center/contain no-repeat;opacity:.24;pointer-events:none}
+.hero::after{background-image:url(/assets/stars/polaris.svg);top:auto;bottom:clamp(10px,2vw,26px)}
+#problem::after{background-image:url(/assets/stars/crux.svg)}
+#about::after{background-image:url(/assets/stars/cassiopeia.svg)}
+#strengths::after{background-image:url(/assets/stars/orion-light.svg);opacity:.3}
+#philosophy::after{background-image:url(/assets/stars/crux-light.svg);opacity:.3}
+#contact::after{background-image:url(/assets/stars/cassiopeia.svg)}
+@media (max-width:520px){.hero::after,#problem::after,#about::after,#strengths::after,#philosophy::after,#contact::after{opacity:.14}}
+@media print{.hero::after,#problem::after,#about::after,#strengths::after,#philosophy::after,#contact::after{display:none}}
 </style>
 </head>
 <body>
