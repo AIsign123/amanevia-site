@@ -20,7 +20,7 @@
 | `public/tomorrow/index.html` | 「はじめての方へ」4つの入口と会社説明1文を追加／基本用語8語の入口を追加 | §4：何をする会社か・相談できる領域・次の行き先。既存の文章・写真は無変更 |
 | `public/tomorrow/glossary/*` | 20語のみに差し替え、関連ページリンク（12語）、旧リンクの互換 | §7 |
 | `public/tomorrow/sources/index.html` | 「NOT USED」欄の削除、確認方針の説明、「本文で裏付ける主張」列、S20・S25の除外、リンク名の読み上げ対応 | §10 |
-| 全37ページ（`/` を除く36ページ）の `<head>` | OGP基本5タグ（og:type/site_name/locale/title/description）とtwitter:cardを追加 | §11（SNS共有時の見え方）。**og:url・og:image・canonicalは未設定**（本番URL・画像が未確定のため） |
+| `/` を除く36ページの `<head>` | OGP基本5タグ（og:type/site_name/locale/title/description）とtwitter:cardを追加 | §11（SNS共有時の見え方）。**og:url・og:image・canonicalは未設定**（本番URL・画像が未確定のため） |
 | `public/tomorrow/insights/classics-and-future` | 老子の成立年代の日付範囲を削除 | 原典（SEP）で日付範囲を確認できなかったため |
 | `public/tomorrow/leadership`・`about/principles` | 用語集へのリンク先を `/tomorrow/glossary` に | 旧「理念・気づき」分野が20語に含まれないため |
 | `docs/ai-human-derived/**` | 非公開の出典台帳、報告、ビルドスクリプト、217語アーカイブ | 監査記録（公開されない） |
@@ -55,7 +55,7 @@
 
 ## 5. 事実性監査結果
 - 用語20語・出典：`v0.8/glossary-v0.8-report.md`（原典照合、文言修正12件）。
-- 出典ページ14件＋本文内リンク40件の外部URLを、原典ページで開いて照合（`sources-ledger-internal.json`）。主張との不一致は上記の修正済み項目以外なし。
+- 外部URL40件（出典表の14件を含む）を、原典ページで開いて照合（`sources-ledger-internal.json`）。主張との不一致は上記の修正済み項目以外なし。
   - 先に「未確認」として管理していたOECD（S15）・NIST AI RMF（S22）は、`classics-and-future` が本文内リンクで引用していたため、今回開いて確認し、台帳を更新。
   - 厚労省の相談窓口4件（番号・料金・受付時間）は原典と一致。
 - 実績・提携表記：新規ページに実績・提携の主張なし。「提携先なし」「実績の掲載なし」を明記したページあり。
@@ -73,8 +73,8 @@
 | 区分 | 項目 | 結果 |
 |---|---|---|
 | 自動（Playwright/Chromium・ローカル） | 用語集50件（件数・ID・検索・絞り込み・0件・関連語・出典リンク・キーボード・モバイル・noindex・内部語の非混入・回帰） | 50/50 PASS |
-| 同 | 全37ページ：OGP基本5タグ、og==title/description、description、h1が1つ、title重複なし、mailto統一、4入口の遷移、用語集の関連リンク解決、相談CTAなし、出典表のリンク名、モバイル横スクロールなし、内部リンク解決 | 31/31 PASS |
-| 外部リンク | 掲載40件＋出典14件を原典ページで内容照合（WebFetch。シェルから外部は不可） | 一致（修正済み項目を除く） |
+| 同 | `/` を除く36ページ：OGP基本5タグ、og==title/description、description、h1が1つ、title重複なし、mailto統一、4入口の遷移、用語集の関連リンク解決、相談CTAなし、出典表のリンク名、モバイル横スクロールなし、内部リンク解決 | 31/31 PASS |
+| 外部リンク | サイト内の外部リンク40件（出典表の14件を含む）を原典ページで内容照合（WebFetch。シェルから外部は不可） | 一致（修正済み項目を除く） |
 | 404 | ローカルは404を返すが `public/404.html` は存在せず、本番はFirebase既定の404 | 要判断（案内用404の追加は提案） |
 | ビルド | 静的HTMLのためビルドなし（Firebase Hosting） | N/A |
 | 既存フォーム | フォームなし（mailtoのみ。`contact@amanevia.co.jp` で全ページ統一） | メール着信の実運用は NOT_RUN |
@@ -92,7 +92,7 @@
 - [ ] 代表者による文言承認（上記8項目）／ 本番トップの「無料」「108金融機関」判断
 - [ ] 公開パスと本番URL確定 → canonical・og:url・og:image・OGP画像の設定
 - [ ] noindex,nofollow と「公開前モック」帯の解除は、公開承認と同時に別作業で
-- [ ] 本番デプロイ前にプレビューで全37ページを実機（iOS/Android）で確認
+- [ ] 本番デプロイ前にプレビューで全ページを実機（iOS/Android）で確認
 - [ ] 外部リンク全件の再確認（公開当日）／ 出典ページの確認日更新
 - [ ] メール `contact@amanevia.co.jp` の着信確認
 - [ ] 404ページ・サイトマップ・robots の方針
