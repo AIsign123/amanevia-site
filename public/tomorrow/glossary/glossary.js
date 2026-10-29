@@ -51,7 +51,7 @@ function render(){
  $('empty').hidden=results.length!==0;$('pagination').hidden=results.length<=PAGE_SIZE;$('prev').disabled=page<=1;$('next').disabled=page>=pages;
  var box=$('results');clear(box);var frag=document.createDocumentFragment();results.slice((page-1)*PAGE_SIZE,page*PAGE_SIZE).forEach(function(t){frag.appendChild(oneTerm(t))});box.appendChild(frag)}
 function init(data){
- TERMS=data.terms||[];$('totalTerms').textContent=TERMS.length.toLocaleString('ja-JP');$('extraTerms').textContent=(TERMS.length-BASE_COUNT).toLocaleString('ja-JP');
+ TERMS=data.terms||[];$('totalTerms').textContent=TERMS.length.toLocaleString('ja-JP');$('extraTerms').textContent=TERMS.filter(function(t){return /^R/.test(t.id)}).length.toLocaleString('ja-JP');
  [].forEach.call(document.querySelectorAll('[data-area]'),function(e){e.addEventListener('click',function(){setArea(e.getAttribute('data-area'))})});
  $('query').addEventListener('input',function(){page=1;render()});$('category').addEventListener('change',function(){page=1;render()});$('source').addEventListener('change',function(){page=1;render()});
  $('clear').addEventListener('click',function(){$('query').value='';$('source').value='';$('category').value='';setArea('all');$('query').focus()});
