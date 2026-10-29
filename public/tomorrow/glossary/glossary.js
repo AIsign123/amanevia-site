@@ -59,5 +59,5 @@ function init(data){
  var p=new URLSearchParams(location.search);if(p.get('q'))$('query').value=p.get('q').slice(0,120);populateCats();
  var ar=p.get('area');if(ar&&['robotics','values','consulting'].indexOf(ar)>=0)setArea(ar);else render();
  $('loading').hidden=true}
-fetch('/tomorrow/glossary/glossary.json?v=20261029c').then(function(r){if(!r.ok)throw new Error(r.status);return r.json()}).then(init).catch(function(){var l=$('loading');l.hidden=false;l.className='gl-error';l.setAttribute('role','alert');l.textContent='用語データを読み込めませんでした。時間をおいて、もう一度お試しください。'});
+fetch('/tomorrow/glossary/glossary.json?v=20261029d').then(function(r){if(!r.ok)throw new Error(r.status);return r.json()}).then(init).catch(function(){var l=$('loading');l.hidden=false;l.className='gl-error';l.setAttribute('role','alert');l.textContent='用語データを読み込めませんでした。時間をおいて、もう一度お試しください。'});
 })();

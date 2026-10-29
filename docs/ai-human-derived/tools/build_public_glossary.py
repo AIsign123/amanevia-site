@@ -6,6 +6,9 @@
 import json,sys,os,datetime
 sys.path.insert(0,os.path.dirname(__file__))
 from pm_terms import SRC,PM,EXIST
+from acct_terms import SRC2,ACCT
+from robo_terms import SRC3,ROBO
+SRC.update(SRC2);SRC.update(SRC3)
 ROOT=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..','..'))
 M=json.load(open(f'{ROOT}/docs/ai-human-derived/glossary-master.json',encoding='utf-8'))
 byid={t['id']:t for t in M['terms']}
@@ -34,7 +37,7 @@ EX_OTHER={ # id -> [refs]  いずれも2026-10-29にページを開いて、そ�
  'R045':[J('https://moveit.picknik.ai/main/doc/concepts/motion_planning.html','MoveIt「Motion Planning」')],
  'T362':[],
 }
-CATJA={'Performance Management':'指標・目標','Consulting & Delivery':'プロジェクト管理の基本','Product Framework':'事業・プロダクト','Consulting Core':'ステークホルダー・価値','Project Delivery':'プロジェクト管理の基本','Delivery':'スコープ・要件','Decision & Portfolio':'プロジェクト管理の基本','Measurement & Delivery':'スケジュール','Corporate Reorganization':'会社の再編・資本','Equity & Capital':'会社の再編・資本','Financial Statements':'財務諸表・会計','Audit & Assurance':'財務諸表・会計','M&A':'会社の再編・資本','Corporate Finance':'会社の再編・資本','Legacy Capital Market':'資本市場','Corporate Tax':'税務','Personal Tax':'税務','SEO & Web Analytics':'Web分析・SEO','AI Governance Framework':'AIガバナンス'}
+CATJA={'Performance Management':'指標・目標','Consulting & Delivery':'プロジェクト管理の基本','Product Framework':'事業・プロダクト','Consulting Core':'ステークホルダー・価値','Project Delivery':'プロジェクト管理の基本','Delivery':'スコープ・要件','Decision & Portfolio':'プロジェクト管理の基本','Measurement & Delivery':'スケジュール','Corporate Reorganization':'会社の再編・資本','Equity & Capital':'会社の再編・資本','Financial Statements':'財務諸表・会計','Audit & Assurance':'財務諸表・会計','M&A':'会社の再編・資本','Corporate Finance':'会社の再編・資本','Legacy Capital Market':'資本市場','Corporate Tax':'税務（法人税）','Personal Tax':'税務（所得税）','SEO & Web Analytics':'Web分析・SEO','AI Governance Framework':'AIガバナンス'}
 BOILER=('フレームを埋めること自体を成果とせず',)
 def refs_of(keys): return [J(*SRC[k]) for k in keys]
 out=[];ledger={}
@@ -59,6 +62,14 @@ for i,(ja,en,cat,df,cau,rel,src,al) in enumerate(PM,1):
     r={'id':'P%03d'%i,'japanese':ja,'english':en,'category':cat,'definition':df,'client_explanation':df,'aliases':al,'related_terms':rel,'verified_refs':refs_of(src),'scope_note':'本用語集による要約。原文の正式な訳文ではありません。'}
     if cau: r['misuse_caution']=cau
     out.append(r)
+for i,(ja,en,cat,df,cau,rel,src,al) in enumerate(ACCT,1):
+    r={'id':'A%03d'%i,'japanese':ja,'english':en,'category':cat,'definition':df,'client_explanation':df,'aliases':al,'related_terms':rel,'verified_refs':refs_of(src),'scope_note':'本用語集による要約。原文の正式な文言ではありません。実務では国税庁などの最新の案内で確認してください。'}
+    if cau: r['misuse_caution']=cau
+    out.append(r)
+for (rid,ja,en,cat,df,cau,rel,src,al) in ROBO:
+    r={'id':rid,'japanese':ja,'english':en,'category':cat,'definition':df,'client_explanation':df,'aliases':al,'related_terms':rel,'verified_refs':refs_of(src),'scope_note':'本用語集による要約。原文の正式な文言ではありません。規格の本文は、各規格の最新版で確認してください。'}
+    if cau: r['misuse_caution']=cau
+    out.append(r)
 # 関連語は公開語だけに限定
 names=set()
 for r in out:
@@ -70,4 +81,4 @@ for r in out:
 data={'version':'0.8-verified-only','as_of':CHECK,'terms':out}
 json.dump(data,open(f'{ROOT}/public/tomorrow/glossary/glossary.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
 json.dump({'checked':CHECK,'rule':'出典ページ自体がその語を説明していることを、確認日にページを開いて確認できた語のみ公開','entries':ledger},open(f'{ROOT}/docs/ai-human-derived/glossary-verification-ledger.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
-print(len(out),'published of',len(M['terms']),'master + new PM',len(PM))
+print(len(out),'published of',len(M['terms']),'master + new PM',len(PM),'+ ACCT',len(ACCT),'+ ROBO',len(ROBO))
