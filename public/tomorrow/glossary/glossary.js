@@ -9,11 +9,11 @@ var FEATURED=['Physical AI','Robot','Humanoid Robot','Business Analysis','Social
 function featureRank(x){var i=FEATURED.indexOf(x.english);return i<0?999:i}
 function categoryOf(x){return x.category||'その他'}
 function flag(x){return String(x.source_status||'')}
-function isOfficial(x){var f=flag(x);return f.indexOf('official_')>=0||f.indexOf('primary_verified')>=0}
+var PUB=/(\.go\.jp|\.iso\.org|iso\.org|ifr\.org|nist\.gov|jpx\.co\.jp)$/;
+function isOfficial(x){var r=x.source_refs||[];for(var i=0;i<r.length;i++){var u=safeUrl(r[i]);if(u&&PUB.test(new URL(u).hostname))return true}return false}
 function isLegacy(x){return x.canonical_status==='deprecated'||x.canonical_status==='legacy'||flag(x).indexOf('legacy')>=0||x.legal_or_standard_status==='historical_or_legacy'}
 function needsVerify(x){return x.legal_or_standard_status==='needs_current_verification'}
 function belongs(x){return area==='all'||(area==='robotics'&&newItem(x)&&x.category!=='理念・思考')||(area==='values'&&x.category==='理念・思考')||(area==='consulting'&&(!newItem(x)||x.english==='Business Analysis'))}
-var STATUS_JA={web_reference:'Web上の参照あり（個別の原典確認は未了）',seed_review_required:'初期登録（要レビュー）',reviewed_context_not_individual_definition:'文脈のレビュー済み（個別の定義の確認ではありません）',spark_review_candidate:'レビュー候補',official_scope_checked_summary:'公式資料の範囲を確認した要約',official_primary_verified:'一次資料で確認',internal_editorial_proposal:'Amaneviaの編集提案（外部の根拠ではありません）'};
 var LEGAL_JA={needs_current_verification:'制度・条件は変わることがあります。現行の内容を、専門家や公式情報で確認してください。',historical_or_legacy:'旧制度・旧用語に関わる語です。現行制度と混同しないでください。',current_checked:'現行性を確認した記録があります（個別案件の判断は別です）。'};
 function safeUrl(ref){var v=String(ref||'').replace(/^WEB_(PRIMARY|REFERENCE):/,'').trim();try{var u=new URL(v);return u.protocol==='https:'?u.href:null}catch(e){return null}}
 function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=String(text);return e}
@@ -36,10 +36,8 @@ function oneTerm(x){
  if(x.legal_or_standard_status&&LEGAL_JA[x.legal_or_standard_status])field(inner,'制度・規格の確認状態',LEGAL_JA[x.legal_or_standard_status],'caution');
  if(x.scope_note)field(inner,'適用範囲',x.scope_note);
  if(x.not_for)field(inner,'この語の説明では判断できないこと',x.not_for);
- field(inner,'公開レビュー状態',x.canonical_status==='reviewed'?'見直し済みの記録（公開適合とは別）':'説明候補・要確認');
- if(x.source_status)field(inner,'根拠の状態',(STATUS_JA[x.source_status]||x.source_status)+'（記録名: '+x.source_status+'）');
- if(x.last_reviewed)field(inner,'記録上の確認日',x.last_reviewed);
  if(x.source_refs&&x.source_refs.length){var box=el('div');box.appendChild(el('dt','','参考資料・参照先（参照先であり、第三者の推薦ではありません）'));var dd=el('dd');var c=0;for(var i=0;i<x.source_refs.length&&c<3;i++){var u=safeUrl(x.source_refs[i]);if(!u)continue;var l=el('a','gl-source',new URL(u).hostname+' — 参考資料を開く');l.href=u;l.target='_blank';l.rel='noopener noreferrer';dd.appendChild(l);c++}if(c){box.appendChild(dd);inner.appendChild(box)}}
+ if(!(x.source_refs&&x.source_refs.length))field(inner,'参考資料','国や公的機関などの資料での確認を進めています。');
  if(x.category==='ロボティクス基礎'||x.category==='安全・規格')field(inner,'注意','現場への適用・法令適合・安全性の判断には、実際の機器・用途・最新版の規格と専門家による確認が必要です。','caution');
  d.appendChild(inner);a.appendChild(d);return a}
 function render(){
