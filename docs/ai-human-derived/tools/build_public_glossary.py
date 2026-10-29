@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """公開用 glossary.json を作る。方針：出典ページ自体がその語を説明していると確認できた語だけを載せる。
 入力: docs/ai-human-derived/glossary-master.json（全語の台帳。非公開）
-出力: public/tomorrow/glossary/glossary.json
+出力: docs/ai-human-derived/archive/glossary-217-verified-only-v0.8.json（非公開アーカイブ。公開ページは build_public_glossary_v08.py の20語）
 確認記録: docs/ai-human-derived/glossary-verification-ledger.json"""
 import json,sys,os,datetime
 sys.path.insert(0,os.path.dirname(__file__))
@@ -79,6 +79,6 @@ for r in out:
     r['confusable_with']=[x for x in r.get('confusable_with',[]) if x in names]
     ledger[r['id']]=[{'url':v['url'],'title':v['title'],'checked':v['checked']} for v in r['verified_refs']]
 data={'version':'0.8-verified-only','as_of':CHECK,'terms':out}
-json.dump(data,open(f'{ROOT}/public/tomorrow/glossary/glossary.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
+json.dump(data,open(f'{ROOT}/docs/ai-human-derived/archive/glossary-217-verified-only-v0.8.json','w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
 json.dump({'checked':CHECK,'rule':'出典ページ自体がその語を説明していることを、確認日にページを開いて確認できた語のみ公開','entries':ledger},open(f'{ROOT}/docs/ai-human-derived/glossary-verification-ledger.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
 print(len(out),'published of',len(M['terms']),'master + new PM',len(PM),'+ ACCT',len(ACCT),'+ ROBO',len(ROBO))
