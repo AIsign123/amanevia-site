@@ -13,7 +13,7 @@
 | 6 | 4つの入口 | `/tomorrow` を4入口(課題/AI・ロボ・学び/サービス/会社・代表)に再編。旧「3つの始め方」の固有内容(悩み・BA/PMO伴走・リーダー8視点)は文章を保って4入口とリーダーカードに移設 |
 
 ## 2. 変更ファイル(origin/main 比)
-- 変更: `public/index.html`(5か所のみ)
+- 変更: `public/index.html`(5か所のみ)、`.gitignore`(`__pycache__/` を1行追加)
 - 追加: `public/404.html`、`public/tomorrow/**`(36ページ+共通資産+`assets/og-default.png`)、`public/services/business-analysis/index.html`、`docs/**`(報告・台帳・`tools/release_switch.py`)
 
 ## 3. コミット
@@ -35,12 +35,12 @@
 - **NOT_RUN: メールの実着信**。方法: 外部のメールアカウントから contact@amanevia.co.jp に件名「サイト確認」で送信 → 受信箱に届くことを確認。期待結果: 数分以内に着信
 
 ## 6. スクリーンショット
-`docs/` ではなく添付: PC/モバイル(トップ、/tomorrow、用語集、出典、サービス、BA、代表者、404)
+会話に添付(PC/モバイル: トップ、/tomorrow、用語集、出典、サービス、BA、代表者、404)
 
 ## 7. 事実性の残課題
 1. **実績文**: 「金融機関向けシステムの本番移行に参画した経験」は、本人記載以外の裏付け資料を確認できていません(Drive検索で資料なし)。確認できない場合は当該1文のみ削除(1行)。
 2. 「以下は代表者個人の職務経験」という区分は代表者の確認が必要
-3. 本番トップの問い合わせ先: mailto が `contact@amanevia.co.jp` か旧アドレスか、現行のトップでの統一と contact@ の受信を要確認
+3. 問い合わせ先の不一致: 現行の本番トップの mailto は `akira.inadomi@amanevia.com`、Tomorrow/404 は `contact@amanevia.co.jp`(PR #6 は contact@ に統一)。統一方針と contact@ の受信を要確認
 4. OGP画像の使用承認
 5. 本番トップ自体には OGP・canonical がない(今回の範囲外)
 6. S16(Google PAIR)は着想のみ。台帳に注記済み
