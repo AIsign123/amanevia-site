@@ -1,0 +1,326 @@
+{
+ "purpose": "内部・非公開の出典調査台帳。公開しない",
+ "as_of": "2026-10-29",
+ "entries": [
+  {
+   "id": "S01",
+   "source": "Noy & Zhang (2023) Science",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "453人／時間40%短縮／品質18%向上",
+   "used_on": "ai-human",
+   "note": "原典ページ(Stanford SCALE)で確認。ページ上は「平均作業時間40%減」で、ChatGPT群限定の記載ではない",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S02",
+   "source": "Brynjolfsson ほか (2025) QJE",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "5,172人／15%／経験差",
+   "used_on": "ai-human, customer-value",
+   "note": "リンク先は2023年WP表記。QJE 140(2)は検索結果で確認",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S03",
+   "source": "Dell’Acqua ほか (2023) HBS/BCG",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "758人／25%・40%・12%超（速度・人の評価・完了）／ギザギザの境界",
+   "used_on": "ai-human, editorial-decisions",
+   "note": "範囲外の数値はページになく不掲載",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S04",
+   "source": "Becker ほか (2025) METR",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "16人・246課題／+19%／予想24%短縮",
+   "used_on": "ai-human",
+   "note": "arXiv要旨で確認",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S05",
+   "source": "中小機構 解説記事 (2026-05-20)",
+   "status": "PARTIAL",
+   "supports_claims": "AI活用約3割／最多の理由",
+   "used_on": "customer-value",
+   "note": "記事の記述を紹介する形。母数・白書原典は未確認。本文は「中小企業全体の普及率と読まないで」と限定済み",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S06",
+   "source": "ILO (2025-05-20)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "4人に1人／3.3%／変化が最も起こりやすい",
+   "used_on": "ai-human",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S07",
+   "source": "Lee ほか CHI 2025",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "319人・936例／信頼と批判的思考の関連",
+   "used_on": "ai-human, editorial-decisions, learning-with-ai",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S08",
+   "source": "Barcaui (2025)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "n=120／45日後／57.5% vs 68.5%",
+   "used_on": "learning-with-ai",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S09",
+   "source": "Contractor & Reyes IZA DP 18792 (2026-07)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "0.27SD／1週間後も保持／augmentation使用者の遅延効果が大きい／automation使用者の短期効果は消失",
+   "used_on": "learning-with-ai",
+   "note": "査読前の可能性を本文で明記",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S10",
+   "source": "経済産業省 デジタルスキル標準 ver.2.0 (2026-04-16)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "公表日／データマネジメント・AI実装運用・AIガバナンスの追加",
+   "used_on": "learning-with-ai",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S17",
+   "source": "HBS Online Jobs to Be Done",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "定義",
+   "used_on": "customer-value",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S18",
+   "source": "内閣府 AI法",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "公布2025-06-04／全面施行09-01",
+   "used_on": "editorial-decisions",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S21",
+   "source": "個人情報保護委員会 FAQ",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "利用目的の範囲／機械学習に利用されないことの確認",
+   "used_on": "ai-human, editorial-decisions",
+   "note": "",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S26",
+   "source": "Liu ほか EdWorkingPaper 26-1598 (2026-10)",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "2,379人・教員30人／-0.37SD／-0.90SD",
+   "used_on": "learning-with-ai",
+   "note": "「実際に使った学生は約15%」は報道情報で原典未確認と本文に明記",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S20",
+   "source": "総務省・経済産業省 AI事業者ガイドライン 第1.2版",
+   "status": "PARTIAL_UNUSED",
+   "supports_claims": "本文のどの主張も裏付けていない",
+   "used_on": "(なし)",
+   "note": "案内ページのみ確認、公表日の根拠が弱い。公開表から2026-10-29に除外",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S25",
+   "source": "W3C WCAG 2.2 勧告 (2023-10-05)",
+   "status": "VERIFIED_PAGE_UNUSED",
+   "supports_claims": "本文のどの主張も裏付けていない",
+   "used_on": "(なし)",
+   "note": "公開表から2026-10-29に除外（適合の主張を避けるため）",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S14",
+   "source": "Edmondson (1999) 心理的安全性",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "原典未確認。公開しない。本文で触れる場合は原典確認が必要",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S15",
+   "source": "OECD AI原則",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "OECD AI原則は「AIに関する最初の政府間の基準」と表記（2019採択・2024改訂の記載は未確認で本文は不掲載）",
+   "used_on": "classics-and-future（本文内リンク）",
+   "note": "2026-10-29にページを開いて確認。先に「未確認」としていたが、本文が本文内リンクで引用しているため再確認した",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S22",
+   "source": "NIST AI RMF",
+   "status": "VERIFIED_PAGE",
+   "supports_claims": "NIST AI RMF 1.0：自主的利用／信頼性の考慮を設計・開発・利用・評価に組み込む／4機能 Govern, Map, Measure, Manage",
+   "used_on": "classics-and-future（本文内リンク）",
+   "note": "2026-10-29にページを開いて確認。AI RMF 1.0は更新作業中と記載あり（本文に反映要否は代表者確認）",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S23",
+   "source": "NIST 生成AIプロファイル",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "同上",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S24",
+   "source": "ISO/IEC 42001",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "同上",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S19",
+   "source": "内閣府 AI適正性確保指針",
+   "status": "UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "同上",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S16",
+   "source": "Google PAIR 人間中心AIガイド",
+   "status": "INSPIRATION_ONLY",
+   "supports_claims": "—（事実の根拠にしていない）",
+   "used_on": "(なし)",
+   "note": "任せ方の段階を整理する際の着想。内容の引用なし。分類の根拠は旧公開文の記述のみで、制作記録の独立確認は未了（代表者確認）",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S11",
+   "source": "渋沢栄一記念財団",
+   "status": "HOLD_UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "原典未確認。掲載保留",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S12",
+   "source": "トヨタ自動車 公式資料",
+   "status": "HOLD_UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "原典未確認。リンク条件はglobal.toyota/jp/terms-of-use/で確認（営利目的のリンクは拒否対象、トップページへのリンクを要請）。公開ページには掲載しない",
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "S13",
+   "source": "Drucker関連の書評",
+   "status": "HOLD_UNVERIFIED",
+   "supports_claims": "—",
+   "used_on": "(なし)",
+   "note": "原典未確認。掲載保留",
+   "checked": "2026-10-29"
+  }
+ ],
+ "inline_external_sources_checked_2026_10_29": [
+  {
+   "title": "UNESCO AI倫理勧告",
+   "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+   "used_on": "classics-and-future",
+   "supports": "2021年11月・193加盟国採択／価値・原則",
+   "status": "VERIFIED_PAGE"
+  },
+  {
+   "title": "総務省 人口推計（内閣府 高齢社会白書 令和8年版）",
+   "url": "https://www8.cao.go.jp/kourei/whitepaper/w-2026/html/zenbun/s1_1_1.html",
+   "used_on": "classics-and-future",
+   "supports": "1億2,322万人・3,622万人・29.4%・59.7%",
+   "status": "VERIFIED_PAGE"
+  },
+  {
+   "title": "PHP研究所",
+   "url": "https://www.php.co.jp/",
+   "used_on": "learning-from-predecessors",
+   "supports": "PHP=Peace and Happiness through Prosperity、創設者の願い",
+   "status": "VERIFIED_PAGE（メタ記述）"
+  },
+  {
+   "title": "パナソニックHD 沿革",
+   "url": "https://holdings.panasonic/jp/corporate/about/history/konosuke-matsushita.html",
+   "used_on": "learning-from-predecessors",
+   "supports": "1918年創業・1929年綱領と信条",
+   "status": "VERIFIED_PAGE"
+  },
+  {
+   "title": "稲盛和夫オフィシャルサイト",
+   "url": "https://www.kyocera.co.jp/inamori/about/thinker/philosophy/",
+   "used_on": "learning-from-predecessors",
+   "supports": "自問自答のなかで生まれた哲学",
+   "status": "VERIFIED_PAGE（メタ記述）"
+  },
+  {
+   "title": "紀伊國屋書店 書籍紹介",
+   "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784802615051",
+   "used_on": "before-anger",
+   "supports": "書名・著者・出版社・50のアンチパターン・5編",
+   "status": "VERIFIED_PAGE"
+  },
+  {
+   "title": "厚生労働省 まもろうよ こころ",
+   "url": "https://www.mhlw.go.jp/mamorouyokokoro/soudan/tel/",
+   "used_on": "before-anger",
+   "supports": "4つの相談窓口の番号・料金・受付時間",
+   "status": "VERIFIED_PAGE（4件一致）"
+  },
+  {
+   "title": "WHO Mental health at work",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+   "used_on": "leadership/understanding-reactions",
+   "supports": "2026-09-15／職場のリスク要因",
+   "status": "VERIFIED_PAGE"
+  },
+  {
+   "title": "IIBA BA Standard 2.1",
+   "url": "https://www.iiba.org/knowledgehub/the-business-analysis-standard/2-understanding-business-analysis/2-1-defining-business-analysis/",
+   "used_on": "services/business-analysis",
+   "supports": "ビジネスアナリシスの定義",
+   "status": "VERIFIED_PAGE"
+  },
+  {
+   "title": "Stanford SEP 11項目（孔子・孟子・荀子・老子・荘子・墨子・王陽明・アリストテレス・カント・ケアの倫理・アフリカの倫理）",
+   "url": "https://plato.stanford.edu/entries/",
+   "used_on": "classics-and-future",
+   "supports": "各思想の中心的な考え方の要約",
+   "status": "VERIFIED_PAGE（王陽明の「良知」は原典で「pure knowing」と表記、老子の成立年代は日付範囲を削除済み）"
+  },
+  {
+   "title": "Stanford News 2005 卒業式スピーチ",
+   "url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
+   "used_on": "words-that-endure",
+   "supports": "三つの話",
+   "status": "VERIFIED_PAGE（ページ上に大学名の明記はなし。ドメインは Stanford News）"
+  },
+  {
+   "title": "Yale Teachers Institute / Polynesian Voyaging Society / コトバンク",
+   "url": "(トップの星の概念図の出典)",
+   "used_on": "tomorrow",
+   "supports": "北極星の高度と緯度／星の羅針盤／南十字星",
+   "status": "VERIFIED_PAGE（Yale・Hokulea）。コトバンクは今回未再確認"
+  }
+ ]
+}

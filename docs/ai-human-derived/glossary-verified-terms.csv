@@ -1,0 +1,258 @@
+﻿ID,分野,カテゴリ,用語,英語,出典の種類,出典タイトル,出典URL,確認日
+T018,その他,指標・目標,重要業績評価指標,KPI,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+T019,その他,指標・目標,重要目標達成指標,KGI,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+T178,その他,プロジェクト管理の基本,提案依頼書（RFP）,Request for Proposal (RFP),国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+T178,その他,プロジェクト管理の基本,提案依頼書（RFP）,Request for Proposal (RFP),国・公的機関,デジタル庁 標準ガイドライン実践ガイドブック（DS-120）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf,2026-10-29
+T054,その他,事業・プロダクト,実用最小限の製品,MVP,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+T014,その他,ステークホルダー・価値,利害関係者,Stakeholder,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+T056,その他,プロジェクト管理の基本,対象範囲,Scope,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+T055,その他,スコープ・要件,受入条件,Acceptance Criteria,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+T011,その他,ステークホルダー・価値,前提,Assumption,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+T129,その他,プロジェクト管理の基本,優先順位付け,Prioritization,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+T123,その他,プロジェクト管理の基本,プロジェクト,Project,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+T061,その他,プロジェクト管理の基本,クリティカルパス,Critical Path,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+T021,その他,スケジュール,基準値・基準版,Baseline,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+R201,ロボティクス,理念・思考,ビジネスアナリシス,Business Analysis,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+T510,会計・税務,会社の再編・資本,株式移転,Share Transfer,規格・業界団体,JPX 用語集「株式移転」,https://www.jpx.co.jp/glossary/ka/76.html,2026-10-29
+T514,会計・税務,会社の再編・資本,株式分割,Stock Split,規格・業界団体,JPX 用語集「株式分割」,https://www.jpx.co.jp/glossary/ka/81.html,2026-10-29
+T515,会計・税務,財務諸表・会計,株主資本,Shareholders' Equity,規格・業界団体,JPX 用語集「株主資本」,https://www.jpx.co.jp/glossary/ka/87.html,2026-10-29
+T522,会計・税務,財務諸表・会計,監査法人,Audit Corporation,規格・業界団体,JPX 用語集「監査法人」,https://www.jpx.co.jp/glossary/ka/92.html,2026-10-29
+T535,会計・税務,会社の再編・資本,合併比率,Merger Ratio,規格・業界団体,JPX 用語集「合併比率」,https://www.jpx.co.jp/glossary/ka/69.html,2026-10-29
+T621,会計・税務,財務諸表・会計,財務諸表,Financial Statements,規格・業界団体,JPX 用語集「財務諸表」,https://www.jpx.co.jp/glossary/sa/165.html,2026-10-29
+T646,会計・税務,会社の再編・資本,資本準備金,Legal Capital Reserve,規格・業界団体,JPX 用語集「資本準備金」,https://www.jpx.co.jp/glossary/sa/194.html,2026-10-29
+T652,会計・税務,会社の再編・資本,社債,Corporate Bond,規格・業界団体,JPX 用語集「社債」,https://www.jpx.co.jp/glossary/sa/195.html,2026-10-29
+T713,会計・税務,会社の再編・資本,第三者割当増資,Third-party Allotment,規格・業界団体,JPX 用語集「第三者割当増資」,https://www.jpx.co.jp/glossary/ta/270.html,2026-10-29
+T810,会計・税務,財務諸表・会計,連結財務諸表,Consolidated Financial Statements,規格・業界団体,JPX 用語集「連結財務諸表」,https://www.jpx.co.jp/glossary/ra/471.html,2026-10-29
+T547,会計・税務,資本市場,グリーンシート市場,Green Sheet Market (Abolished),規格・業界団体,日本証券業協会「グリーンシート」（2018年3月31日に終了と記載）,https://www.jsda.or.jp/shijyo/minasama/greensheet/index.html,2026-10-29
+T562,会計・税務,税務（法人税）,欠損金の繰越,Tax Loss Carryforward,国・公的機関,国税庁 タックスアンサー No.5762 青色申告書を提出した事業年度の欠損金の繰越控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5762.htm,2026-10-29
+T741,会計・税務,税務（所得税）,配偶者控除,Spouse Deduction,国・公的機関,国税庁 タックスアンサー No.1191 配偶者控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm,2026-10-29
+T742,会計・税務,税務（所得税）,配偶者特別控除,Special Spouse Deduction,国・公的機関,国税庁 タックスアンサー No.1195 配偶者特別控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1195.htm,2026-10-29
+T313,その他,Web分析・SEO,セッション,Session,企業・開発元・OSS,Googleアナリティクス ヘルプ「アナリティクスのセッションについて」,https://support.google.com/analytics/answer/9191807?hl=ja,2026-10-29
+T327,その他,Web分析・SEO,直帰率,Bounce Rate,企業・開発元・OSS,Googleアナリティクス ヘルプ「エンゲージメント率と直帰率」,https://support.google.com/analytics/answer/12195621,2026-10-29
+T166,その他,AIガバナンス,NIST AIリスクマネジメント・フレームワーク,NIST AI RMF,国・公的機関,NIST AI Risk Management Framework,https://www.nist.gov/itl/ai-risk-management-framework,2026-10-29
+R125,ロボティクス,フィジカルAI・学習,視覚言語モデル（VLM）,VLM,企業・開発元・OSS,Google DeepMind「RT-2」,https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/,2026-10-29
+R126,ロボティクス,フィジカルAI・学習,視覚言語行動モデル（VLA）,VLA,企業・開発元・OSS,Google DeepMind「RT-2」,https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/,2026-10-29
+R110,ロボティクス,ROS・ソフトウェア,トピック（ROS）,Topic,企業・開発元・OSS,"ROS 2 ドキュメント「Topics, Services, Actions」",https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/Topics-Services-Actions.rst,2026-10-29
+R111,ロボティクス,ROS・ソフトウェア,サービス（ROS）,Service,企業・開発元・OSS,"ROS 2 ドキュメント「Topics, Services, Actions」",https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/Topics-Services-Actions.rst,2026-10-29
+R112,ロボティクス,ROS・ソフトウェア,アクション（ROS）,Action,企業・開発元・OSS,"ROS 2 ドキュメント「Topics, Services, Actions」",https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/Topics-Services-Actions.rst,2026-10-29
+R113,ロボティクス,ROS・ソフトウェア,出版購読（Pub/Sub）,Publisher Subscriber,企業・開発元・OSS,"ROS 2 ドキュメント「Topics, Services, Actions」",https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/Topics-Services-Actions.rst,2026-10-29
+R032,ロボティクス,運動学・力学,運動学,Kinematics,国・公的機関,NIST「Grasping」,https://www.nist.gov/el/intelligent-systems-division-73500/robotic-grasping-and-manipulation-assembly/grasping,2026-10-29
+R094,ロボティクス,把持・触覚・技能,掌内操作,In-hand Manipulation,国・公的機関,NIST「Grasping」,https://www.nist.gov/el/intelligent-systems-division-73500/robotic-grasping-and-manipulation-assembly/grasping,2026-10-29
+R045,ロボティクス,運動学・力学,軌道（時間付き）,Trajectory,企業・開発元・OSS,MoveIt「Motion Planning」,https://moveit.picknik.ai/main/doc/concepts/motion_planning.html,2026-10-29
+T362,その他,プロジェクト管理の基本,プロジェクトマネジメントオフィス,Project Management Office (PMO),国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+T362,その他,プロジェクト管理の基本,プロジェクトマネジメントオフィス,Project Management Office (PMO),国・公的機関,デジタル庁 標準ガイドライン実践ガイドブック（DS-120）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf,2026-10-29
+P001,プロジェクトマネジメント,アジャイル・スクラム,スクラム,Scrum,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P001,プロジェクトマネジメント,アジャイル・スクラム,スクラム,Scrum,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P002,プロジェクトマネジメント,アジャイル・スクラム,スプリント,Sprint,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P002,プロジェクトマネジメント,アジャイル・スクラム,スプリント,Sprint,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P003,プロジェクトマネジメント,アジャイル・スクラム,スプリントプランニング,Sprint Planning,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P004,プロジェクトマネジメント,アジャイル・スクラム,デイリースクラム,Daily Scrum,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P004,プロジェクトマネジメント,アジャイル・スクラム,デイリースクラム,Daily Scrum,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P005,プロジェクトマネジメント,アジャイル・スクラム,スプリントレビュー,Sprint Review,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P006,プロジェクトマネジメント,アジャイル・スクラム,スプリントレトロスペクティブ,Sprint Retrospective,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P006,プロジェクトマネジメント,アジャイル・スクラム,スプリントレトロスペクティブ,Sprint Retrospective,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P007,プロジェクトマネジメント,アジャイル・スクラム,プロダクトバックログ,Product Backlog,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P007,プロジェクトマネジメント,アジャイル・スクラム,プロダクトバックログ,Product Backlog,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P007,プロジェクトマネジメント,アジャイル・スクラム,プロダクトバックログ,Product Backlog,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P008,プロジェクトマネジメント,アジャイル・スクラム,スプリントバックログ,Sprint Backlog,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P008,プロジェクトマネジメント,アジャイル・スクラム,スプリントバックログ,Sprint Backlog,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P009,プロジェクトマネジメント,アジャイル・スクラム,インクリメント,Increment,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P009,プロジェクトマネジメント,アジャイル・スクラム,インクリメント,Increment,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P010,プロジェクトマネジメント,アジャイル・スクラム,プロダクトゴール,Product Goal,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P011,プロジェクトマネジメント,アジャイル・スクラム,スプリントゴール,Sprint Goal,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P012,プロジェクトマネジメント,アジャイル・スクラム,完成の定義,Definition of Done,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P012,プロジェクトマネジメント,アジャイル・スクラム,完成の定義,Definition of Done,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P013,プロジェクトマネジメント,アジャイル・スクラム,プロダクトオーナー,Product Owner,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P013,プロジェクトマネジメント,アジャイル・スクラム,プロダクトオーナー,Product Owner,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P014,プロジェクトマネジメント,アジャイル・スクラム,スクラムマスター,Scrum Master,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P014,プロジェクトマネジメント,アジャイル・スクラム,スクラムマスター,Scrum Master,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P015,プロジェクトマネジメント,アジャイル・スクラム,デベロッパー（スクラム）,Developers (Scrum),規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P016,プロジェクトマネジメント,アジャイル・スクラム,スクラムの価値基準,Scrum Values,規格・業界団体,The Scrum Guide（2020年版）,https://scrumguides.org/scrum-guide.html,2026-10-29
+P017,プロジェクトマネジメント,アジャイル・スクラム,アジャイルソフトウェア開発宣言,Manifesto for Agile Software Development,規格・業界団体,アジャイルソフトウェア開発宣言,https://agilemanifesto.org/iso/ja/manifesto.html,2026-10-29
+P018,プロジェクトマネジメント,アジャイル・スクラム,アジャイル型開発,Agile Development,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P018,プロジェクトマネジメント,アジャイル・スクラム,アジャイル型開発,Agile Development,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P019,プロジェクトマネジメント,アジャイル・スクラム,ウォータフォール型開発,Waterfall Development,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P020,プロジェクトマネジメント,アジャイル・スクラム,反復型開発,Iterative Development,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P020,プロジェクトマネジメント,アジャイル・スクラム,反復型開発,Iterative Development,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P021,プロジェクトマネジメント,カンバン・フロー,カンバン（Kanban Guide）,Kanban,規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P022,プロジェクトマネジメント,カンバン・フロー,フロー,Flow,規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P023,プロジェクトマネジメント,カンバン・フロー,ワークフローの定義,Definition of Workflow (DoW),規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P024,プロジェクトマネジメント,カンバン・フロー,仕掛り（WIP）,Work in Progress (WIP),規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P025,プロジェクトマネジメント,カンバン・フロー,WIP制御,WIP Control,規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P026,プロジェクトマネジメント,カンバン・フロー,プルシステム,Pull System,規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P027,プロジェクトマネジメント,カンバン・フロー,スループット,Throughput,規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P028,プロジェクトマネジメント,カンバン・フロー,ワークアイテムエイジ,Work Item Age,規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P029,プロジェクトマネジメント,カンバン・フロー,サイクルタイム（フロー指標）,Cycle Time (flow metric),規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P030,プロジェクトマネジメント,カンバン・フロー,サービスレベル期待（SLE）,Service Level Expectation (SLE),規格・業界団体,The Kanban Guide（v2025.5）,https://kanbanguides.org/english/,2026-10-29
+P031,プロジェクトマネジメント,スコープ・要件,要件定義,Requirements Definition,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P031,プロジェクトマネジメント,スコープ・要件,要件定義,Requirements Definition,国・公的機関,デジタル庁 標準ガイドライン実践ガイドブック（DS-120）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf,2026-10-29
+P032,プロジェクトマネジメント,スコープ・要件,業務要件,Business Requirements,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P033,プロジェクトマネジメント,スコープ・要件,システム要件,System Requirements,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P034,プロジェクトマネジメント,スコープ・要件,機能要件,Functional Requirements,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P034,プロジェクトマネジメント,スコープ・要件,機能要件,Functional Requirements,国・公的機関,デジタル庁 標準ガイドライン実践ガイドブック（DS-120）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf,2026-10-29
+P035,プロジェクトマネジメント,スコープ・要件,非機能要件,Non-functional Requirements,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P035,プロジェクトマネジメント,スコープ・要件,非機能要件,Non-functional Requirements,国・公的機関,デジタル庁 標準ガイドライン実践ガイドブック（DS-120）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf,2026-10-29
+P036,プロジェクトマネジメント,スコープ・要件,WBS（作業分解構成図）,Work Breakdown Structure (WBS),国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P036,プロジェクトマネジメント,スコープ・要件,WBS（作業分解構成図）,Work Breakdown Structure (WBS),国・公的機関,米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）,https://www.gao.gov/assets/gao-20-195g.pdf,2026-10-29
+P036,プロジェクトマネジメント,スコープ・要件,WBS（作業分解構成図）,Work Breakdown Structure (WBS),国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P037,プロジェクトマネジメント,ステークホルダー・価値,ニーズ,Need,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P038,プロジェクトマネジメント,スコープ・要件,要求・要件（ビジネスアナリシス）,Requirement (business analysis),規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P039,プロジェクトマネジメント,ステークホルダー・価値,ソリューション,Solution,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P040,プロジェクトマネジメント,ステークホルダー・価値,価値（ビジネスアナリシス）,Value,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P041,プロジェクトマネジメント,ステークホルダー・価値,コンテキスト（状況）,Context,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P042,プロジェクトマネジメント,ステークホルダー・価値,ビジネスケース,Business Case,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P043,プロジェクトマネジメント,スコープ・要件,エリシテーション（引き出し）,Elicitation,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P044,プロジェクトマネジメント,スコープ・要件,ユーザーストーリー,User Story,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P045,プロジェクトマネジメント,ステークホルダー・価値,ステークホルダー分析,Stakeholder Analysis,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P046,プロジェクトマネジメント,前提・予備・感度,制約,Constraint,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P047,プロジェクトマネジメント,スケジュール,マイルストーン,Milestone,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P048,プロジェクトマネジメント,スケジュール,アクティビティ,Activity,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P049,プロジェクトマネジメント,スケジュール,先行・後続の依存関係,Dependency (predecessor and successor),国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P050,プロジェクトマネジメント,スケジュール,トータルフロート,Total Float,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P051,プロジェクトマネジメント,スケジュール,ニアクリティカルパス,Near-critical Path,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P052,プロジェクトマネジメント,スケジュール,統合マスタースケジュール（IMS）,Integrated Master Schedule (IMS),国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P053,プロジェクトマネジメント,スケジュール,スケジュールリスク分析,Schedule Risk Analysis,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P054,プロジェクトマネジメント,スケジュール,スケジュールコンティンジェンシー,Schedule Contingency,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P055,プロジェクトマネジメント,スケジュール,LOE（定常的な支援作業）,Level of Effort (LOE),国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P056,プロジェクトマネジメント,スケジュール,サマリータスク,Summary Task,国・公的機関,米国GAO Schedule Assessment Guide（GAO-16-89G）,https://www.gao.gov/assets/gao-16-89g.pdf,2026-10-29
+P057,プロジェクトマネジメント,コスト・出来高管理,アーンド・バリュー・マネジメント（EVM）,Earned Value Management (EVM),国・公的機関,米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）,https://www.gao.gov/assets/gao-20-195g.pdf,2026-10-29
+P057,プロジェクトマネジメント,コスト・出来高管理,アーンド・バリュー・マネジメント（EVM）,Earned Value Management (EVM),国・公的機関,デジタル庁 標準ガイドライン実践ガイドブック（DS-120）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf,2026-10-29
+P058,プロジェクトマネジメント,コスト・出来高管理,差異（バリアンス）,Variance,国・公的機関,米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）,https://www.gao.gov/assets/gao-20-195g.pdf,2026-10-29
+P059,プロジェクトマネジメント,前提・予備・感度,コンティンジェンシー（予備費）,Contingency,国・公的機関,米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）,https://www.gao.gov/assets/gao-20-195g.pdf,2026-10-29
+P060,プロジェクトマネジメント,前提・予備・感度,マネジメントリザーブ,Management Reserve,国・公的機関,米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）,https://www.gao.gov/assets/gao-20-195g.pdf,2026-10-29
+P061,プロジェクトマネジメント,前提・予備・感度,感度分析,Sensitivity Analysis,国・公的機関,米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）,https://www.gao.gov/assets/gao-20-195g.pdf,2026-10-29
+P062,プロジェクトマネジメント,前提・予備・感度,前提条件と基本ルール,Ground Rules and Assumptions,国・公的機関,米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）,https://www.gao.gov/assets/gao-20-195g.pdf,2026-10-29
+P063,プロジェクトマネジメント,調達・契約,RFI（資料提供依頼）,Request for Information (RFI),国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P063,プロジェクトマネジメント,調達・契約,RFI（資料提供依頼）,Request for Information (RFI),国・公的機関,デジタル庁 標準ガイドライン実践ガイドブック（DS-120）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf,2026-10-29
+P064,プロジェクトマネジメント,調達・契約,意見招請,Request for Comments on Specifications,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P065,プロジェクトマネジメント,調達・契約,ベンダー,Vendor,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P066,プロジェクトマネジメント,調達・契約,ベンダーロックイン,Vendor Lock-in,国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P067,プロジェクトマネジメント,調達・契約,準委任契約,Quasi-mandate Contract,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P068,プロジェクトマネジメント,調達・契約,請負契約,Contract for Work,国・公的機関,デジタル庁 アジャイル開発実践ガイドブック（DS-121）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf,2026-10-29
+P069,プロジェクトマネジメント,官公庁の標準ガイドライン,PJMO（プロジェクト推進組織）,Project Management Office (PJMO),国・公的機関,デジタル庁 標準ガイドライン群用語集（DS-130）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf,2026-10-29
+P069,プロジェクトマネジメント,官公庁の標準ガイドライン,PJMO（プロジェクト推進組織）,Project Management Office (PJMO),国・公的機関,デジタル庁 標準ガイドライン実践ガイドブック（DS-120）,https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf,2026-10-29
+P070,プロジェクトマネジメント,PMBOKガイド第7版,原理・原則（PMBOK第7版）,Principles (PMBOK Guide 7th),規格・業界団体,PMI日本支部スポンサー向け資料「PMBOKガイド第7版の紹介」,https://www.pmi-japan.org/wp-content/uploads/2022/12/02-suzuki_20220620.pdf,2026-10-29
+P071,プロジェクトマネジメント,PMBOKガイド第7版,パフォーマンス領域（PMBOK第7版）,Performance Domains (PMBOK Guide 7th),規格・業界団体,PMI日本支部スポンサー向け資料「PMBOKガイド第7版の紹介」,https://www.pmi-japan.org/wp-content/uploads/2022/12/02-suzuki_20220620.pdf,2026-10-29
+P072,プロジェクトマネジメント,PMBOKガイド第7版,テーラリング,Tailoring,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P072,プロジェクトマネジメント,PMBOKガイド第7版,テーラリング,Tailoring,規格・業界団体,PMI日本支部スポンサー向け資料「PMBOKガイド第7版の紹介」,https://www.pmi-japan.org/wp-content/uploads/2022/12/02-suzuki_20220620.pdf,2026-10-29
+P073,プロジェクトマネジメント,PMBOKガイド第7版,開発アプローチ,Development Approach,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P074,プロジェクトマネジメント,PMBOKガイド第7版,適応型アプローチ,Adaptive Approach,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P075,プロジェクトマネジメント,PMBOKガイド第7版,漸進型アプローチ,Incremental Approach,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P076,プロジェクトマネジメント,PMBOKガイド第7版,アジャイル（PMBOK第7版）,Agile (PMBOK Guide 7th),規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P077,プロジェクトマネジメント,PMBOKガイド第7版,価値実現オフィス（VDO）,Value Delivery Office (VDO),規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P078,プロジェクトマネジメント,PMBOKガイド第7版,顧客の声（VOC）,Voice of the Customer (VOC),規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P079,プロジェクトマネジメント,PMBOKガイド第7版,プロジェクト・ビジョン記述書,Project Vision Statement,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P080,プロジェクトマネジメント,PMBOKガイド第7版,品質方針,Quality Policy,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P081,プロジェクトマネジメント,PMBOKガイド第7版,リスク報告書,Risk Report,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P082,プロジェクトマネジメント,PMBOKガイド第7版,ログ（プロジェクト）,Log,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P083,プロジェクトマネジメント,PMBOKガイド第7版,サイクルタイムチャート,Cycle Time Chart,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P084,プロジェクトマネジメント,PMBOKガイド第7版,タスクボード,Task Board,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P085,プロジェクトマネジメント,PMBOKガイド第7版,障害事項（ブロッカー）,Impediment / Blocker,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P086,プロジェクトマネジメント,PMBOKガイド第7版,プロジェクト・マネジャー,Project Manager,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P087,プロジェクトマネジメント,PMBOKガイド第7版,プロジェクト・リーダー,Project Leader,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+P088,プロジェクトマネジメント,スコープ・要件,ユースケース,Use Case,規格・業界団体,IIBA BABOK Guide 用語集,https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/,2026-10-29
+P088,プロジェクトマネジメント,スコープ・要件,ユースケース,Use Case,規格・業界団体,PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）,https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf,2026-10-29
+A001,会計・税務,税務（所得税）,所得税,Income Tax,国・公的機関,国税庁 タックスアンサー No.1000 所得税のしくみ,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm,2026-10-29
+A002,会計・税務,税務（所得税）,利子所得,Interest Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A002,会計・税務,税務（所得税）,利子所得,Interest Income,国・公的機関,国税庁 タックスアンサー No.1310 利子所得,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm,2026-10-29
+A003,会計・税務,税務（所得税）,配当所得,Dividend Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A003,会計・税務,税務（所得税）,配当所得,Dividend Income,国・公的機関,国税庁 タックスアンサー No.1330 配当所得,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm,2026-10-29
+A004,会計・税務,税務（所得税）,不動産所得,Real Estate Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A005,会計・税務,税務（所得税）,事業所得,Business Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A005,会計・税務,税務（所得税）,事業所得,Business Income,国・公的機関,国税庁 タックスアンサー No.1350 事業所得,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1350.htm,2026-10-29
+A006,会計・税務,税務（所得税）,給与所得,Employment Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A006,会計・税務,税務（所得税）,給与所得,Employment Income,国・公的機関,国税庁 タックスアンサー No.1400 給与所得,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1400.htm,2026-10-29
+A007,会計・税務,税務（所得税）,退職所得,Retirement Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A008,会計・税務,税務（所得税）,山林所得,Forestry Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A009,会計・税務,税務（所得税）,譲渡所得,Capital Gains (Transfer Income),国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A009,会計・税務,税務（所得税）,譲渡所得,Capital Gains (Transfer Income),国・公的機関,国税庁 タックスアンサー No.1440 譲渡所得,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1440.htm,2026-10-29
+A010,会計・税務,税務（所得税）,一時所得,Occasional Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A010,会計・税務,税務（所得税）,一時所得,Occasional Income,国・公的機関,国税庁 タックスアンサー No.1490 一時所得,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm,2026-10-29
+A011,会計・税務,税務（所得税）,雑所得,Miscellaneous Income,国・公的機関,国税庁 タックスアンサー No.1300 所得の区分のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm,2026-10-29
+A011,会計・税務,税務（所得税）,雑所得,Miscellaneous Income,国・公的機関,国税庁 タックスアンサー No.1500 雑所得,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm,2026-10-29
+A012,会計・税務,税務（所得税）,総合課税,Comprehensive Taxation,国・公的機関,国税庁 タックスアンサー No.2220 総合課税制度,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2220.htm,2026-10-29
+A013,会計・税務,税務（所得税）,源泉分離課税,Withholding-only Separate Taxation,国・公的機関,国税庁 タックスアンサー No.2230 源泉分離課税制度,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2230.htm,2026-10-29
+A014,会計・税務,税務（所得税）,申告分離課税,Separate Taxation by Filing,国・公的機関,国税庁 タックスアンサー No.2240 申告分離課税制度,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2240.htm,2026-10-29
+A015,会計・税務,税務（所得税）,所得控除,Income Deductions,国・公的機関,国税庁 タックスアンサー No.1100 所得控除のあらまし,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm,2026-10-29
+A016,会計・税務,税務（所得税）,医療費控除,Medical Expense Deduction,国・公的機関,国税庁 タックスアンサー No.1120 医療費控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm,2026-10-29
+A017,会計・税務,税務（所得税）,社会保険料控除,Social Insurance Premium Deduction,国・公的機関,国税庁 タックスアンサー No.1130 社会保険料控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm,2026-10-29
+A018,会計・税務,税務（所得税）,小規模企業共済等掛金控除,Small Enterprise Mutual Aid Premium Deduction,国・公的機関,国税庁 タックスアンサー No.1135 小規模企業共済等掛金控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm,2026-10-29
+A019,会計・税務,税務（所得税）,生命保険料控除,Life Insurance Premium Deduction,国・公的機関,国税庁 タックスアンサー No.1140 生命保険料控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm,2026-10-29
+A020,会計・税務,税務（所得税）,扶養控除,Deduction for Dependents,国・公的機関,国税庁 タックスアンサー No.1180 扶養控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm,2026-10-29
+A021,会計・税務,税務（所得税）,障害者控除,Deduction for Persons with Disabilities,国・公的機関,国税庁 タックスアンサー No.1160 障害者控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm,2026-10-29
+A022,会計・税務,税務（所得税）,雑損控除,Casualty Loss Deduction,国・公的機関,国税庁 タックスアンサー No.1110 雑損控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm,2026-10-29
+A023,会計・税務,税務（所得税）,配当控除,Dividend Tax Credit,国・公的機関,国税庁 タックスアンサー No.1250 配当控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm,2026-10-29
+A024,会計・税務,税務（所得税）,住宅借入金等特別控除,Housing Loan Tax Credit,国・公的機関,国税庁 タックスアンサー No.1211-1 住宅借入金等特別控除,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm,2026-10-29
+A025,会計・税務,税務（申告・納税）,確定申告,Final Income Tax Return,国・公的機関,国税庁 タックスアンサー No.2020 確定申告,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm,2026-10-29
+A026,会計・税務,税務（申告・納税）,準確定申告,Final Return for a Deceased Taxpayer,国・公的機関,国税庁 タックスアンサー No.2022 準確定申告,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm,2026-10-29
+A027,会計・税務,税務（申告・納税）,青色申告,Blue Return,国・公的機関,国税庁 タックスアンサー No.2070 青色申告制度,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm,2026-10-29
+A028,会計・税務,税務（申告・納税）,修正申告,Amended Return,国・公的機関,国税庁 タックスアンサー No.2026 確定申告を間違えたとき,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2026.htm,2026-10-29
+A029,会計・税務,税務（申告・納税）,更正の請求,Request for Correction,国・公的機関,国税庁 タックスアンサー No.2026 確定申告を間違えたとき,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2026.htm,2026-10-29
+A030,会計・税務,税務（申告・納税）,期限後申告,Late Return,国・公的機関,国税庁 タックスアンサー No.2024 確定申告を忘れたとき,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm,2026-10-29
+A031,会計・税務,税務（申告・納税）,加算税,Additional Tax (Penalty Tax),国・公的機関,国税庁 確定申告書等作成コーナー「加算税とは」,https://www.keisan.nta.go.jp/r6yokuaru/ocat2/ocat24/cid1117.html,2026-10-29
+A032,会計・税務,税務（申告・納税）,過少申告加算税,Underreporting Penalty Tax,国・公的機関,国税庁 確定申告書等作成コーナー「加算税とは」,https://www.keisan.nta.go.jp/r6yokuaru/ocat2/ocat24/cid1117.html,2026-10-29
+A033,会計・税務,税務（申告・納税）,無申告加算税,Non-filing Penalty Tax,国・公的機関,国税庁 確定申告書等作成コーナー「加算税とは」,https://www.keisan.nta.go.jp/r6yokuaru/ocat2/ocat24/cid1117.html,2026-10-29
+A033,会計・税務,税務（申告・納税）,無申告加算税,Non-filing Penalty Tax,国・公的機関,国税庁 タックスアンサー No.2024 確定申告を忘れたとき,https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm,2026-10-29
+A034,会計・税務,税務（申告・納税）,重加算税,Heavy Penalty Tax,国・公的機関,国税庁 確定申告書等作成コーナー「加算税とは」,https://www.keisan.nta.go.jp/r6yokuaru/ocat2/ocat24/cid1117.html,2026-10-29
+A035,会計・税務,税務（申告・納税）,延滞税,Delinquent Tax,国・公的機関,国税庁 タックスアンサー No.9205 延滞税について,https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9205.htm,2026-10-29
+A036,会計・税務,税務（法人税）,益金,Gross Revenue (Taxable),国・公的機関,国税庁「法人税のあらましと申告の手引」（令和6年10月）,https://www.nta.go.jp/publication/pamph/hojin/aramashi2024/pdf/01.pdf,2026-10-29
+A037,会計・税務,税務（法人税）,損金,Deductible Expense,国・公的機関,国税庁「法人税のあらましと申告の手引」（令和6年10月）,https://www.nta.go.jp/publication/pamph/hojin/aramashi2024/pdf/01.pdf,2026-10-29
+A038,会計・税務,税務（法人税）,内国法人,Domestic Corporation,国・公的機関,国税庁「法人税のあらましと申告の手引」（令和6年10月）,https://www.nta.go.jp/publication/pamph/hojin/aramashi2024/pdf/01.pdf,2026-10-29
+A039,会計・税務,税務（法人税）,欠損金の繰戻し還付,Loss Carryback Refund,国・公的機関,国税庁 タックスアンサー No.5763 欠損金の繰戻しによる還付,https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5763.htm,2026-10-29
+A040,会計・税務,税務（法人税）,グループ通算制度,Group Taxation System,国・公的機関,国税庁 タックスアンサー No.5900 グループ通算制度の概要,https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5900.htm,2026-10-29
+A041,会計・税務,財務諸表・会計,貸借対照表,Balance Sheet,国・公的機関,中小企業庁「中小企業の会計 31問31答」問4（貸借対照表）,https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/04.html,2026-10-29
+A042,会計・税務,財務諸表・会計,損益計算書,Income Statement (P/L),国・公的機関,中小企業庁「中小企業の会計 31問31答」問5（損益計算書）,https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/06.html,2026-10-29
+A043,会計・税務,財務諸表・会計,売上総利益,Gross Profit,国・公的機関,中小企業庁「中小企業の会計 31問31答」問5（損益計算書）,https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/06.html,2026-10-29
+A044,会計・税務,財務諸表・会計,営業利益,Operating Profit,国・公的機関,中小企業庁「中小企業の会計 31問31答」問5（損益計算書）,https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/06.html,2026-10-29
+A045,会計・税務,財務諸表・会計,経常利益,Ordinary Profit,国・公的機関,中小企業庁「中小企業の会計 31問31答」問5（損益計算書）,https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/06.html,2026-10-29
+A046,会計・税務,財務諸表・会計,キャッシュ・フロー計算書,Cash Flow Statement,国・公的機関,中小企業庁「中小企業の会計 31問31答」問31（キャッシュ・フロー計算書）,https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/50.html,2026-10-29
+A046,会計・税務,財務諸表・会計,キャッシュ・フロー計算書,Cash Flow Statement,国・公的機関,企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）,https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm,2026-10-29
+A047,会計・税務,財務諸表・会計,現金,Cash (CF statement),国・公的機関,企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）,https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm,2026-10-29
+A048,会計・税務,財務諸表・会計,現金同等物,Cash Equivalents,国・公的機関,企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）,https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm,2026-10-29
+A049,会計・税務,財務諸表・会計,営業活動によるキャッシュ・フロー,Cash Flows from Operating Activities,国・公的機関,企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）,https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm,2026-10-29
+A050,会計・税務,財務諸表・会計,投資活動によるキャッシュ・フロー,Cash Flows from Investing Activities,国・公的機関,企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）,https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm,2026-10-29
+A051,会計・税務,財務諸表・会計,財務活動によるキャッシュ・フロー,Cash Flows from Financing Activities,国・公的機関,企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）,https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm,2026-10-29
+A052,会計・税務,財務諸表・会計,固定資産,Fixed Assets,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A053,会計・税務,財務諸表・会計,繰延資産,Deferred Assets,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A054,会計・税務,財務諸表・会計,純資産,Net Assets,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A055,会計・税務,財務諸表・会計,前払費用,Prepaid Expenses,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A056,会計・税務,財務諸表・会計,未収収益,Accrued Revenue,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A057,会計・税務,財務諸表・会計,前受収益,Unearned Revenue (Deferred Income),国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A058,会計・税務,財務諸表・会計,未払費用,Accrued Expenses,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A059,会計・税務,財務諸表・会計,資本金,Capital Stock,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A060,会計・税務,財務諸表・会計,資本剰余金,Capital Surplus,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A061,会計・税務,財務諸表・会計,利益剰余金,Retained Earnings,国・公的機関,中小企業の会計に関する基本要領（平成24年2月1日）,https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf,2026-10-29
+A062,会計・税務,財務諸表・会計,流動比率,Current Ratio,国・公的機関,財務省 財務総合政策研究所「流動比率」（財務指標の説明）,https://www.mof.go.jp/pri/reference/ssc/zaimu/zaimu01_06.pdf,2026-10-29
+A063,会計・税務,財務諸表・会計,流動資産,Current Assets,国・公的機関,財務省 財務総合政策研究所「流動比率」（財務指標の説明）,https://www.mof.go.jp/pri/reference/ssc/zaimu/zaimu01_06.pdf,2026-10-29
+A064,会計・税務,財務諸表・会計,流動負債,Current Liabilities,国・公的機関,財務省 財務総合政策研究所「流動比率」（財務指標の説明）,https://www.mof.go.jp/pri/reference/ssc/zaimu/zaimu01_06.pdf,2026-10-29
+R002,ロボティクス,ロボティクス基礎,ロボット,Robot,国・公的機関,NEDO「「ロボット」知っておきたい基礎知識」（JIS規格の定義を引用）,https://www.nedo.go.jp/activities/introduction_100017_1.html,2026-10-29
+R003,ロボティクス,ロボティクス基礎,産業用ロボット,Industrial Robot,国・公的機関,NEDO「「ロボット」知っておきたい基礎知識」（JIS規格の定義を引用）,https://www.nedo.go.jp/activities/introduction_100017_1.html,2026-10-29
+R003,ロボティクス,ロボティクス基礎,産業用ロボット,Industrial Robot,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf,2026-10-29
+R004,ロボティクス,ロボティクス基礎,サービスロボット,Service Robot,国・公的機関,NEDO「「ロボット」知っておきたい基礎知識」（JIS規格の定義を引用）,https://www.nedo.go.jp/activities/introduction_100017_1.html,2026-10-29
+R009,ロボティクス,ロボティクス基礎,ロボットシステム,Robot System,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf,2026-10-29
+R009,ロボティクス,ロボティクス基礎,ロボットシステム,Robot System,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf,2026-10-29
+R023,ロボティクス,機構・ハードウェア,エンドエフェクタ,End Effector,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf,2026-10-29
+R164,ロボティクス,安全・規格,安全適合監視停止,Safety-rated Monitored Stop,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf,2026-10-29
+R164,ロボティクス,安全・規格,安全適合監視停止,Safety-rated Monitored Stop,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf,2026-10-29
+R170,ロボティクス,安全・規格,安全機能,Safety Function,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf,2026-10-29
+R171,ロボティクス,安全・規格,機能安全,Functional Safety,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf,2026-10-29
+R171,ロボティクス,安全・規格,機能安全,Functional Safety,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf,2026-10-29
+R301,ロボティクス,ヒューマノイド・協働,協働運転,Collaborative Operation,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf,2026-10-29
+R301,ロボティクス,ヒューマノイド・協働,協働運転,Collaborative Operation,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf,2026-10-29
+R302,ロボティクス,ヒューマノイド・協働,協働ロボット,Collaborative Robot,国・公的機関,厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）,https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf,2026-10-29
+R108,ロボティクス,ROS・ソフトウェア,ROS 2,ROS 2,企業・開発元・OSS,ROS 2 公式リポジトリ README,https://github.com/ros2/ros2/blob/rolling/README.md,2026-10-29
+R109,ロボティクス,ROS・ソフトウェア,ノード（ROS）,Node,企業・開発元・OSS,ROS 2 ドキュメント「Nodes」,https://github.com/ros2/ros2_documentation/blob/jazzy/source/Concepts/Basic/About-Nodes.rst,2026-10-29
+R115,ロボティクス,ROS・ソフトウェア,通信品質設定（QoS）,QoS,企業・開発元・OSS,ROS 2 ドキュメント「Quality of Service settings」,https://github.com/ros2/ros2_documentation/blob/humble/source/Concepts/Intermediate/About-Quality-of-Service-Settings.rst,2026-10-29
+R116,ロボティクス,ROS・ソフトウェア,座標変換ライブラリ（tf2）,TF2,企業・開発元・OSS,ROS 2 ドキュメント「Tf2」,https://github.com/ros2/ros2_documentation/blob/jazzy/source/Concepts/Intermediate/About-Tf2.rst,2026-10-29
+R117,ロボティクス,ROS・ソフトウェア,ロボット記述形式（URDF）,URDF,企業・開発元・OSS,MoveIt 公式「URDF and SRDF」,https://moveit.picknik.ai/main/doc/examples/urdf_srdf/urdf_srdf_tutorial.html,2026-10-29
+R303,ロボティクス,ROS・ソフトウェア,SRDF（セマンティックロボット記述形式）,SRDF (Semantic Robot Description Format),企業・開発元・OSS,MoveIt 公式「URDF and SRDF」,https://moveit.picknik.ai/main/doc/examples/urdf_srdf/urdf_srdf_tutorial.html,2026-10-29
+R119,ロボティクス,ROS・ソフトウェア,MoveIt 2,MoveIt 2,企業・開発元・OSS,MoveIt 2 公式ドキュメント,https://moveit.picknik.ai/main/index.html,2026-10-29
+R120,ロボティクス,ROS・ソフトウェア,Navigation2（Nav2）,Nav2,企業・開発元・OSS,Nav2 公式ドキュメント,https://docs.nav2.org/rolling/,2026-10-29
+R121,ロボティクス,ROS・ソフトウェア,ビヘイビアツリー,Behavior Tree,企業・開発元・OSS,BehaviorTree.CPP 公式「Introduction to BTs」,https://www.behaviortree.dev/docs/learn-the-basics/BT_basics/,2026-10-29
+R121,ロボティクス,ROS・ソフトウェア,ビヘイビアツリー,Behavior Tree,企業・開発元・OSS,Nav2 公式「Navigation Concepts」,https://docs.nav2.org/rolling/getting_started/navigation_concepts/,2026-10-29
+R085,ロボティクス,移動・自律航法,コストマップ,Costmap,企業・開発元・OSS,Nav2 公式「Environmental Representation」,https://docs.nav2.org/rolling/getting_started/navigation_concepts/environmental_representation/,2026-10-29
+R122,ロボティクス,ROS・ソフトウェア,ハードウェアコンポーネント（ros2_control）,Hardware Component (ros2_control),企業・開発元・OSS,ros2_control 公式「Hardware Components」,https://control.ros.org/master/doc/ros2_control/hardware_interface/doc/hardware_components_userdoc.html,2026-10-29
+R304,ロボティクス,移動・自律航法,プランナーサーバー（Nav2）,Planner Server,企業・開発元・OSS,Nav2 公式「Navigation Servers」,https://docs.nav2.org/rolling/getting_started/navigation_concepts/navigation_servers/,2026-10-29
+R305,ロボティクス,移動・自律航法,コントローラーサーバー（Nav2）,Controller Server,企業・開発元・OSS,Nav2 公式「Navigation Servers」,https://docs.nav2.org/rolling/getting_started/navigation_concepts/navigation_servers/,2026-10-29
+R306,ロボティクス,移動・自律航法,スムーザーサーバー（Nav2）,Smoother Server,企業・開発元・OSS,Nav2 公式「Navigation Servers」,https://docs.nav2.org/rolling/getting_started/navigation_concepts/navigation_servers/,2026-10-29
+R307,ロボティクス,移動・自律航法,ルートサーバー（Nav2）,Route Server,企業・開発元・OSS,Nav2 公式「Navigation Servers」,https://docs.nav2.org/rolling/getting_started/navigation_concepts/navigation_servers/,2026-10-29

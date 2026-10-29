@@ -1,0 +1,1725 @@
+{
+ "checked": "2026-10-29",
+ "rule": "出典ページ自体がその語を説明していることを、確認日にページを開いて確認できた語のみ公開",
+ "entries": {
+  "T018": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T019": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T178": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+    "title": "デジタル庁 標準ガイドライン実践ガイドブック（DS-120）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T054": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T014": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T056": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T055": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T011": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T129": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T123": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T061": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T021": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R201": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T510": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/76.html",
+    "title": "JPX 用語集「株式移転」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T514": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/81.html",
+    "title": "JPX 用語集「株式分割」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T515": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/87.html",
+    "title": "JPX 用語集「株主資本」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T522": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/92.html",
+    "title": "JPX 用語集「監査法人」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T535": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/69.html",
+    "title": "JPX 用語集「合併比率」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T621": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/165.html",
+    "title": "JPX 用語集「財務諸表」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T646": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/194.html",
+    "title": "JPX 用語集「資本準備金」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T652": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/195.html",
+    "title": "JPX 用語集「社債」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T713": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ta/270.html",
+    "title": "JPX 用語集「第三者割当増資」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T810": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ra/471.html",
+    "title": "JPX 用語集「連結財務諸表」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T547": [
+   {
+    "url": "https://www.jsda.or.jp/shijyo/minasama/greensheet/index.html",
+    "title": "日本証券業協会「グリーンシート」（2018年3月31日に終了と記載）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T562": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5762.htm",
+    "title": "国税庁 タックスアンサー No.5762 青色申告書を提出した事業年度の欠損金の繰越控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T741": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+    "title": "国税庁 タックスアンサー No.1191 配偶者控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T742": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1195.htm",
+    "title": "国税庁 タックスアンサー No.1195 配偶者特別控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T313": [
+   {
+    "url": "https://support.google.com/analytics/answer/9191807?hl=ja",
+    "title": "Googleアナリティクス ヘルプ「アナリティクスのセッションについて」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T327": [
+   {
+    "url": "https://support.google.com/analytics/answer/12195621",
+    "title": "Googleアナリティクス ヘルプ「エンゲージメント率と直帰率」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T166": [
+   {
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "title": "NIST AI Risk Management Framework",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R125": [
+   {
+    "url": "https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/",
+    "title": "Google DeepMind「RT-2」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R126": [
+   {
+    "url": "https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/",
+    "title": "Google DeepMind「RT-2」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R110": [
+   {
+    "url": "https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/Topics-Services-Actions.rst",
+    "title": "ROS 2 ドキュメント「Topics, Services, Actions」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R111": [
+   {
+    "url": "https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/Topics-Services-Actions.rst",
+    "title": "ROS 2 ドキュメント「Topics, Services, Actions」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R112": [
+   {
+    "url": "https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/Topics-Services-Actions.rst",
+    "title": "ROS 2 ドキュメント「Topics, Services, Actions」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R113": [
+   {
+    "url": "https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/Topics-Services-Actions.rst",
+    "title": "ROS 2 ドキュメント「Topics, Services, Actions」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R032": [
+   {
+    "url": "https://www.nist.gov/el/intelligent-systems-division-73500/robotic-grasping-and-manipulation-assembly/grasping",
+    "title": "NIST「Grasping」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R094": [
+   {
+    "url": "https://www.nist.gov/el/intelligent-systems-division-73500/robotic-grasping-and-manipulation-assembly/grasping",
+    "title": "NIST「Grasping」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R045": [
+   {
+    "url": "https://moveit.picknik.ai/main/doc/concepts/motion_planning.html",
+    "title": "MoveIt「Motion Planning」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "T362": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+    "title": "デジタル庁 標準ガイドライン実践ガイドブック（DS-120）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P001": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P002": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P003": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P004": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P005": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P006": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P007": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P008": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P009": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P010": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P011": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P012": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P013": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P014": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P015": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P016": [
+   {
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "title": "The Scrum Guide（2020年版）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P017": [
+   {
+    "url": "https://agilemanifesto.org/iso/ja/manifesto.html",
+    "title": "アジャイルソフトウェア開発宣言",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P018": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P019": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P020": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P021": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P022": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P023": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P024": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P025": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P026": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P027": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P028": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P029": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P030": [
+   {
+    "url": "https://kanbanguides.org/english/",
+    "title": "The Kanban Guide（v2025.5）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P031": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+    "title": "デジタル庁 標準ガイドライン実践ガイドブック（DS-120）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P032": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P033": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P034": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+    "title": "デジタル庁 標準ガイドライン実践ガイドブック（DS-120）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P035": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+    "title": "デジタル庁 標準ガイドライン実践ガイドブック（DS-120）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P036": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.gao.gov/assets/gao-20-195g.pdf",
+    "title": "米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P037": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P038": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P039": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P040": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P041": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P042": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P043": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P044": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P045": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P046": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P047": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P048": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P049": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P050": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P051": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P052": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P053": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P054": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P055": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P056": [
+   {
+    "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+    "title": "米国GAO Schedule Assessment Guide（GAO-16-89G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P057": [
+   {
+    "url": "https://www.gao.gov/assets/gao-20-195g.pdf",
+    "title": "米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+    "title": "デジタル庁 標準ガイドライン実践ガイドブック（DS-120）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P058": [
+   {
+    "url": "https://www.gao.gov/assets/gao-20-195g.pdf",
+    "title": "米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P059": [
+   {
+    "url": "https://www.gao.gov/assets/gao-20-195g.pdf",
+    "title": "米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P060": [
+   {
+    "url": "https://www.gao.gov/assets/gao-20-195g.pdf",
+    "title": "米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P061": [
+   {
+    "url": "https://www.gao.gov/assets/gao-20-195g.pdf",
+    "title": "米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P062": [
+   {
+    "url": "https://www.gao.gov/assets/gao-20-195g.pdf",
+    "title": "米国GAO Cost Estimating and Assessment Guide（GAO-20-195G）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P063": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+    "title": "デジタル庁 標準ガイドライン実践ガイドブック（DS-120）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P064": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P065": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P066": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P067": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P068": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/150a60b4/20220422_resources_standard_guidelines_guidebook_01.pdf",
+    "title": "デジタル庁 アジャイル開発実践ガイドブック（DS-121）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P069": [
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/bb231f8c/20260715_resources_standard_guidelines_glossary_01.pdf",
+    "title": "デジタル庁 標準ガイドライン群用語集（DS-130）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/0af5ce68/20260715_resources_standard_guidelines_guideline_05.pdf",
+    "title": "デジタル庁 標準ガイドライン実践ガイドブック（DS-120）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P070": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2022/12/02-suzuki_20220620.pdf",
+    "title": "PMI日本支部スポンサー向け資料「PMBOKガイド第7版の紹介」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P071": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2022/12/02-suzuki_20220620.pdf",
+    "title": "PMI日本支部スポンサー向け資料「PMBOKガイド第7版の紹介」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P072": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2022/12/02-suzuki_20220620.pdf",
+    "title": "PMI日本支部スポンサー向け資料「PMBOKガイド第7版の紹介」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P073": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P074": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P075": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P076": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P077": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P078": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P079": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P080": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P081": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P082": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P083": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P084": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P085": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P086": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P087": [
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "P088": [
+   {
+    "url": "https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/glossary/",
+    "title": "IIBA BABOK Guide 用語集",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.pmi-japan.org/wp-content/uploads/2023/07/PMBOKGuide_7th_JPN_for_PMIJmembers-2-Updates.pdf",
+    "title": "PMI日本支部「PMBOKガイド第7版（支部会員向けPDF）変更箇所一覧」（2023/7/10）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A001": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm",
+    "title": "国税庁 タックスアンサー No.1000 所得税のしくみ",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A002": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm",
+    "title": "国税庁 タックスアンサー No.1310 利子所得",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A003": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+    "title": "国税庁 タックスアンサー No.1330 配当所得",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A004": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A005": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1350.htm",
+    "title": "国税庁 タックスアンサー No.1350 事業所得",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A006": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1400.htm",
+    "title": "国税庁 タックスアンサー No.1400 給与所得",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A007": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A008": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A009": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1440.htm",
+    "title": "国税庁 タックスアンサー No.1440 譲渡所得",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A010": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+    "title": "国税庁 タックスアンサー No.1490 一時所得",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A011": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "title": "国税庁 タックスアンサー No.1300 所得の区分のあらまし",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm",
+    "title": "国税庁 タックスアンサー No.1500 雑所得",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A012": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2220.htm",
+    "title": "国税庁 タックスアンサー No.2220 総合課税制度",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A013": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2230.htm",
+    "title": "国税庁 タックスアンサー No.2230 源泉分離課税制度",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A014": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2240.htm",
+    "title": "国税庁 タックスアンサー No.2240 申告分離課税制度",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A015": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm",
+    "title": "国税庁 タックスアンサー No.1100 所得控除のあらまし",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A016": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+    "title": "国税庁 タックスアンサー No.1120 医療費控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A017": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "title": "国税庁 タックスアンサー No.1130 社会保険料控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A018": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm",
+    "title": "国税庁 タックスアンサー No.1135 小規模企業共済等掛金控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A019": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+    "title": "国税庁 タックスアンサー No.1140 生命保険料控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A020": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+    "title": "国税庁 タックスアンサー No.1180 扶養控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A021": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm",
+    "title": "国税庁 タックスアンサー No.1160 障害者控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A022": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "title": "国税庁 タックスアンサー No.1110 雑損控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A023": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm",
+    "title": "国税庁 タックスアンサー No.1250 配当控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A024": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm",
+    "title": "国税庁 タックスアンサー No.1211-1 住宅借入金等特別控除",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A025": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm",
+    "title": "国税庁 タックスアンサー No.2020 確定申告",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A026": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm",
+    "title": "国税庁 タックスアンサー No.2022 準確定申告",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A027": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+    "title": "国税庁 タックスアンサー No.2070 青色申告制度",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A028": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2026.htm",
+    "title": "国税庁 タックスアンサー No.2026 確定申告を間違えたとき",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A029": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2026.htm",
+    "title": "国税庁 タックスアンサー No.2026 確定申告を間違えたとき",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A030": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm",
+    "title": "国税庁 タックスアンサー No.2024 確定申告を忘れたとき",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A031": [
+   {
+    "url": "https://www.keisan.nta.go.jp/r6yokuaru/ocat2/ocat24/cid1117.html",
+    "title": "国税庁 確定申告書等作成コーナー「加算税とは」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A032": [
+   {
+    "url": "https://www.keisan.nta.go.jp/r6yokuaru/ocat2/ocat24/cid1117.html",
+    "title": "国税庁 確定申告書等作成コーナー「加算税とは」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A033": [
+   {
+    "url": "https://www.keisan.nta.go.jp/r6yokuaru/ocat2/ocat24/cid1117.html",
+    "title": "国税庁 確定申告書等作成コーナー「加算税とは」",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm",
+    "title": "国税庁 タックスアンサー No.2024 確定申告を忘れたとき",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A034": [
+   {
+    "url": "https://www.keisan.nta.go.jp/r6yokuaru/ocat2/ocat24/cid1117.html",
+    "title": "国税庁 確定申告書等作成コーナー「加算税とは」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A035": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9205.htm",
+    "title": "国税庁 タックスアンサー No.9205 延滞税について",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A036": [
+   {
+    "url": "https://www.nta.go.jp/publication/pamph/hojin/aramashi2024/pdf/01.pdf",
+    "title": "国税庁「法人税のあらましと申告の手引」（令和6年10月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A037": [
+   {
+    "url": "https://www.nta.go.jp/publication/pamph/hojin/aramashi2024/pdf/01.pdf",
+    "title": "国税庁「法人税のあらましと申告の手引」（令和6年10月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A038": [
+   {
+    "url": "https://www.nta.go.jp/publication/pamph/hojin/aramashi2024/pdf/01.pdf",
+    "title": "国税庁「法人税のあらましと申告の手引」（令和6年10月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A039": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5763.htm",
+    "title": "国税庁 タックスアンサー No.5763 欠損金の繰戻しによる還付",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A040": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5900.htm",
+    "title": "国税庁 タックスアンサー No.5900 グループ通算制度の概要",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A041": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/04.html",
+    "title": "中小企業庁「中小企業の会計 31問31答」問4（貸借対照表）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A042": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/06.html",
+    "title": "中小企業庁「中小企業の会計 31問31答」問5（損益計算書）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A043": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/06.html",
+    "title": "中小企業庁「中小企業の会計 31問31答」問5（損益計算書）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A044": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/06.html",
+    "title": "中小企業庁「中小企業の会計 31問31答」問5（損益計算書）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A045": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/06.html",
+    "title": "中小企業庁「中小企業の会計 31問31答」問5（損益計算書）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A046": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/kaikei/tools/2008/50.html",
+    "title": "中小企業庁「中小企業の会計 31問31答」問31（キャッシュ・フロー計算書）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm",
+    "title": "企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A047": [
+   {
+    "url": "https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm",
+    "title": "企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A048": [
+   {
+    "url": "https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm",
+    "title": "企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A049": [
+   {
+    "url": "https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm",
+    "title": "企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A050": [
+   {
+    "url": "https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm",
+    "title": "企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A051": [
+   {
+    "url": "https://www.fsa.go.jp/p_mof/singikai/kaikei/tosin/1a909b2.htm",
+    "title": "企業会計審議会「連結キャッシュ・フロー計算書等の作成基準」（金融庁掲載）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A052": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A053": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A054": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A055": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A056": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A057": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A058": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A059": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A060": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A061": [
+   {
+    "url": "https://www.chusho.meti.go.jp/zaimu/youryou/about/download/0528KaikeiYouryou-1.pdf",
+    "title": "中小企業の会計に関する基本要領（平成24年2月1日）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A062": [
+   {
+    "url": "https://www.mof.go.jp/pri/reference/ssc/zaimu/zaimu01_06.pdf",
+    "title": "財務省 財務総合政策研究所「流動比率」（財務指標の説明）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A063": [
+   {
+    "url": "https://www.mof.go.jp/pri/reference/ssc/zaimu/zaimu01_06.pdf",
+    "title": "財務省 財務総合政策研究所「流動比率」（財務指標の説明）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "A064": [
+   {
+    "url": "https://www.mof.go.jp/pri/reference/ssc/zaimu/zaimu01_06.pdf",
+    "title": "財務省 財務総合政策研究所「流動比率」（財務指標の説明）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R002": [
+   {
+    "url": "https://www.nedo.go.jp/activities/introduction_100017_1.html",
+    "title": "NEDO「「ロボット」知っておきたい基礎知識」（JIS規格の定義を引用）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R003": [
+   {
+    "url": "https://www.nedo.go.jp/activities/introduction_100017_1.html",
+    "title": "NEDO「「ロボット」知っておきたい基礎知識」（JIS規格の定義を引用）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R004": [
+   {
+    "url": "https://www.nedo.go.jp/activities/introduction_100017_1.html",
+    "title": "NEDO「「ロボット」知っておきたい基礎知識」（JIS規格の定義を引用）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R009": [
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R023": [
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R164": [
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R170": [
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R171": [
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R301": [
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11200000-Roudoukijunkyoku/0000152446.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル 産業用ロボットシステム編（平成29年2月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R302": [
+   {
+    "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11300000-Roudoukijunkyokuanzeneiseibu/0000197860.pdf",
+    "title": "厚生労働省委託 機能安全活用実践マニュアル ロボットシステム編（平成30年3月）",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R108": [
+   {
+    "url": "https://github.com/ros2/ros2/blob/rolling/README.md",
+    "title": "ROS 2 公式リポジトリ README",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R109": [
+   {
+    "url": "https://github.com/ros2/ros2_documentation/blob/jazzy/source/Concepts/Basic/About-Nodes.rst",
+    "title": "ROS 2 ドキュメント「Nodes」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R115": [
+   {
+    "url": "https://github.com/ros2/ros2_documentation/blob/humble/source/Concepts/Intermediate/About-Quality-of-Service-Settings.rst",
+    "title": "ROS 2 ドキュメント「Quality of Service settings」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R116": [
+   {
+    "url": "https://github.com/ros2/ros2_documentation/blob/jazzy/source/Concepts/Intermediate/About-Tf2.rst",
+    "title": "ROS 2 ドキュメント「Tf2」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R117": [
+   {
+    "url": "https://moveit.picknik.ai/main/doc/examples/urdf_srdf/urdf_srdf_tutorial.html",
+    "title": "MoveIt 公式「URDF and SRDF」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R303": [
+   {
+    "url": "https://moveit.picknik.ai/main/doc/examples/urdf_srdf/urdf_srdf_tutorial.html",
+    "title": "MoveIt 公式「URDF and SRDF」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R119": [
+   {
+    "url": "https://moveit.picknik.ai/main/index.html",
+    "title": "MoveIt 2 公式ドキュメント",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R120": [
+   {
+    "url": "https://docs.nav2.org/rolling/",
+    "title": "Nav2 公式ドキュメント",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R121": [
+   {
+    "url": "https://www.behaviortree.dev/docs/learn-the-basics/BT_basics/",
+    "title": "BehaviorTree.CPP 公式「Introduction to BTs」",
+    "checked": "2026-10-29"
+   },
+   {
+    "url": "https://docs.nav2.org/rolling/getting_started/navigation_concepts/",
+    "title": "Nav2 公式「Navigation Concepts」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R085": [
+   {
+    "url": "https://docs.nav2.org/rolling/getting_started/navigation_concepts/environmental_representation/",
+    "title": "Nav2 公式「Environmental Representation」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R122": [
+   {
+    "url": "https://control.ros.org/master/doc/ros2_control/hardware_interface/doc/hardware_components_userdoc.html",
+    "title": "ros2_control 公式「Hardware Components」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R304": [
+   {
+    "url": "https://docs.nav2.org/rolling/getting_started/navigation_concepts/navigation_servers/",
+    "title": "Nav2 公式「Navigation Servers」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R305": [
+   {
+    "url": "https://docs.nav2.org/rolling/getting_started/navigation_concepts/navigation_servers/",
+    "title": "Nav2 公式「Navigation Servers」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R306": [
+   {
+    "url": "https://docs.nav2.org/rolling/getting_started/navigation_concepts/navigation_servers/",
+    "title": "Nav2 公式「Navigation Servers」",
+    "checked": "2026-10-29"
+   }
+  ],
+  "R307": [
+   {
+    "url": "https://docs.nav2.org/rolling/getting_started/navigation_concepts/navigation_servers/",
+    "title": "Nav2 公式「Navigation Servers」",
+    "checked": "2026-10-29"
+   }
+  ]
+ }
+}
